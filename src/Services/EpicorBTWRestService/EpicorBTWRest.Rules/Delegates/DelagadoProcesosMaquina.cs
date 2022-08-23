@@ -79,7 +79,7 @@ namespace EpicorBTWRest.Rules.Delegates
 
       #endregion
       #endregion
-      #region Cierre de Día
+            #region Cierre de Día
 
       // Cierre de tiempos en la tabla Labor
       foreach (var CierreLab in TrabajosCierreLabor)

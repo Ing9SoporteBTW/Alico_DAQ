@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pWc0BoCM8WGJMNJsjchdGDPNYV2S6rAWyz8F99BcNNdeniWSa31sRYkhgqB6bI1uzeJ09msp5Z8dlIN6MGJegQ==",
+  "dgSpecHash": "A/2BV0E3ZGy945ZRxRrJhSP1Kh2mxyjgp9R4MGUy0qYcHzV9SmyCxPz0WD+nl5WlSIUzq42AqgB0A3IPkP35bw==",
   "success": true,
-  "projectFilePath": "D:\\ProyectosDAQProducción\\DAQ\\src\\BuildingBlocks\\Events\\EventBus\\EventBus.csproj",
+  "projectFilePath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\BuildingBlocks\\Events\\EventBus\\EventBus.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ing9soporte\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\Santiago Q\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

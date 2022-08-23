@@ -702,19 +702,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ing9soporte\\.nuget\\packages\\": {}
+    "C:\\Users\\Santiago Q\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\BuildingBlocks\\Events\\IntegrationEventLog\\IntegrationEventLog.csproj",
+      "projectUniqueName": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\BuildingBlocks\\Events\\IntegrationEventLog\\IntegrationEventLog.csproj",
       "projectName": "IntegrationEventLog",
-      "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\BuildingBlocks\\Events\\IntegrationEventLog\\IntegrationEventLog.csproj",
-      "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
-      "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\BuildingBlocks\\Events\\IntegrationEventLog\\obj\\",
+      "projectPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\BuildingBlocks\\Events\\IntegrationEventLog\\IntegrationEventLog.csproj",
+      "packagesPath": "C:\\Users\\Santiago Q\\.nuget\\packages\\",
+      "outputPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\BuildingBlocks\\Events\\IntegrationEventLog\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Santiago Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -728,8 +733,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ProyectosDAQProducción\\DAQ\\src\\BuildingBlocks\\Events\\EventBus\\EventBus.csproj": {
-              "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\BuildingBlocks\\Events\\EventBus\\EventBus.csproj"
+            "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\BuildingBlocks\\Events\\EventBus\\EventBus.csproj": {
+              "projectPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\BuildingBlocks\\Events\\EventBus\\EventBus.csproj"
             }
           }
         }
@@ -768,7 +773,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

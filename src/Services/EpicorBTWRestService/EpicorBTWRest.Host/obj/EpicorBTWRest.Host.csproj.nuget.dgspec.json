@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj": {}
+    "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj": {}
   },
   "projects": {
-    "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj": {
+    "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj",
+        "projectUniqueName": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj",
         "projectName": "EpicorBTWRest.DataAccess",
-        "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\obj\\",
+        "projectPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Santiago Q\\.nuget\\packages\\",
+        "outputPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Santiago Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,21 +76,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj": {
+    "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj",
+        "projectUniqueName": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj",
         "projectName": "EpicorBTWRest.Host",
-        "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj",
-        "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Host\\obj\\",
+        "projectPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj",
+        "packagesPath": "C:\\Users\\Santiago Q\\.nuget\\packages\\",
+        "outputPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Host\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Santiago Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,11 +108,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj": {
-                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj"
+              "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj": {
+                "projectPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj"
               },
-              "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj": {
-                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj"
+              "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj": {
+                "projectPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj"
               }
             }
           }
@@ -147,21 +155,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj": {
+    "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj",
+        "projectUniqueName": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj",
         "projectName": "EpicorBTWRest.Rules",
-        "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj",
-        "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Rules\\obj\\",
+        "projectPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj",
+        "packagesPath": "C:\\Users\\Santiago Q\\.nuget\\packages\\",
+        "outputPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.Rules\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Santiago Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -175,11 +187,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj": {
-                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj"
+              "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj": {
+                "projectPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj"
               },
-              "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj": {
-                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj"
+              "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\SharedService\\SharedService.csproj": {
+                "projectPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\SharedService\\SharedService.csproj"
               }
             }
           }
@@ -208,21 +220,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj": {
+    "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj",
+        "projectUniqueName": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj",
         "projectName": "Shared.Host",
-        "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj",
-        "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\Shared.Host\\obj\\",
+        "projectPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj",
+        "packagesPath": "C:\\Users\\Santiago Q\\.nuget\\packages\\",
+        "outputPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\Shared.Host\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Santiago Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -236,8 +252,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj": {
-                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj"
+              "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\SharedService\\SharedService.csproj": {
+                "projectPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\SharedService\\SharedService.csproj"
               }
             }
           }
@@ -332,21 +348,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj": {
+    "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\SharedService\\SharedService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj",
+        "projectUniqueName": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\SharedService\\SharedService.csproj",
         "projectName": "SharedService",
-        "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj",
-        "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\obj\\",
+        "projectPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\SharedService\\SharedService.csproj",
+        "packagesPath": "C:\\Users\\Santiago Q\\.nuget\\packages\\",
+        "outputPath": "D:\\BTW\\ALICO\\DAQ2.0\\Alico_DAQ\\src\\Shared\\SharedService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Santiago Q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -424,7 +444,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
