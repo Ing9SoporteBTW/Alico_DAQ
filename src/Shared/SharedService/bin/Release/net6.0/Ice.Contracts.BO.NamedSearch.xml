@@ -1,0 +1,592 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.NamedSearch</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.BO.NamedSearchDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchDataSet.NamedSearchDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchDataSet.ControlSettingDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchDataSet.WhereClauseDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchDataSet.NamedSearchRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchDataSet.ControlSettingRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchDataSet.WhereClauseRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchDataSet.NamedSearchRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchDataSet.ControlSettingRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchDataSet.WhereClauseRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchListDataSet.NamedSearchListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchListDataSet.NamedSearchListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.NamedSearchListDataSet.NamedSearchListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtNamedSearchDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtNamedSearchDataSet.NamedSearchDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtNamedSearchDataSet.ControlSettingDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtNamedSearchDataSet.WhereClauseDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtNamedSearchDataSet.NamedSearchRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtNamedSearchDataSet.ControlSettingRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtNamedSearchDataSet.WhereClauseRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtNamedSearchDataSet.NamedSearchRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtNamedSearchDataSet.ControlSettingRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtNamedSearchDataSet.WhereClauseRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.NamedSearchSvcContract">
+            <summary>
+            Stores user-defined search parameters, along with two child tables, ControlSettings and WhereClauses.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.NamedSearchSvcContract.GetNewNamedSearch(Ice.Tablesets.NamedSearchTableset@,System.String,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.NamedSearchSvcContract.GetNewControlSetting(Ice.Tablesets.NamedSearchTableset@,System.String,System.String,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.NamedSearchSvcContract.GetNewWhereClause(Ice.Tablesets.NamedSearchTableset@,System.String,System.String,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.NamedSearchSvcContract.DeleteByID(System.String,System.String,System.String,System.String)">
+            <summary>
+            Deletes a row given its ID.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.NamedSearchSvcContract.GetByID(System.String,System.String,System.String,System.String)">
+            <summary>
+            Returns a DataSet given the primary key.
+            </summary>
+            <returns>The DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.NamedSearchSvcContract.GetList(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a list of rows that satisfy the where clause.
+            </summary>
+            <param name="whereClause">An expression used to filter the rows. Can be left blank for all rows.</param>
+            <param name="pageSize">The maximum number of rows to return. Leave as zero for no maximum.</param>
+            <param name="absolutePage">Page of rows to return.</param>
+            <param name="morePages">Whether there are more pages of rows available.</param>
+            <returns>The list DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.NamedSearchSvcContract.GetRows(System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a dataset containing all rows that satisfy the where clauses.
+            </summary>
+            <returns>The full DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.NamedSearchSvcContract.GetBySysRowID(System.Guid)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.NamedSearchSvcContract.GetBySysRowIDs(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.NamedSearchSvcContract.Update(Ice.Tablesets.NamedSearchTableset@)">
+            <summary>
+            Commits the DataSet changes to the data store.
+            </summary>
+            <param name="ds">The full DataSet.</param>
+        </member>
+        <member name="M:Ice.Contracts.NamedSearchSvcContract.UpdateExt(Ice.Tablesets.UpdExtNamedSearchTableset@,System.Boolean,System.Boolean,System.Boolean@)">
+            <summary>
+            Apply input data to BO by calling GetByID/GetNew/Update methods.
+            </summary>
+            <returns>The dataset with list of errors occurred during update process.</returns>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.SearchForm">
+            <summary>
+            Name of base search form
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.NSId">
+            <summary>
+            Named Search ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.UserID">
+            <summary>
+            User ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.CalledFrom">
+            <summary>
+            UI from which the search is called from
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.IsDefault">
+            <summary>
+            Default named search flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.AutoExecute">
+            <summary>
+            Auto Execute flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.UnpinCrit">
+            <summary>
+            Can unpin Criteria
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.IsShared">
+            <summary>
+            Can be shared flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.ShareType">
+            <summary>
+            Share Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.ReturnAll">
+            <summary>
+            Return all rows flag.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.MaxRows">
+            <summary>
+            Maximum number search rows.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.AutoSelect">
+            <summary>
+            Auto select flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.DataSetMode">
+            <summary>
+            Value will be one of: "RowsDataSet" or "ListDataSet"
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.ProductID">
+            <summary>
+            "VN" = Vantage; "VS" = Vista
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.ActiveTab">
+            <summary>
+            Active panel
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.GroupOn">
+            <summary>
+            Can use Group By flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.GroupBy">
+            <summary>
+            Group by column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.SearchType">
+             <summary>
+             SearchType will hold one of two values initially but will be expanded in the future to offer other values.  This field is mandatory. Current values are Basic or BAQ.
+            
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.SearchUsing">
+            <summary>
+            SearchUsing will hold either null or the name of an existing BAQ.  In the future it may hold the name of an existing Dashboard. 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.SortByColumn">
+            <summary>
+            Column to sort by
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.SortOrder">
+            <summary>
+            A for Ascending or D for Descending
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ControlSettingRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ControlSettingRow.SearchForm">
+            <summary>
+            Search Form
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ControlSettingRow.NSId">
+            <summary>
+            Namespace ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ControlSettingRow.UserID">
+            <summary>
+            User ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ControlSettingRow.CalledFrom">
+            <summary>
+            Called From
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ControlSettingRow.ControlGuid">
+            <summary>
+            Control GUID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ControlSettingRow.ControlValue">
+            <summary>
+            Control Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ControlSettingRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ControlSettingRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ControlSettingRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ControlSettingRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ControlSettingRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.WhereClauseRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.WhereClauseRow.SearchForm">
+            <summary>
+            Search Form
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.WhereClauseRow.NSId">
+            <summary>
+            Namespace ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.WhereClauseRow.UserID">
+            <summary>
+            User ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.WhereClauseRow.CalledFrom">
+            <summary>
+            Called From
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.WhereClauseRow.TableName">
+            <summary>
+            Table Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.WhereClauseRow.WhereClause">
+            <summary>
+            Where Clause
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.WhereClauseRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.WhereClauseRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.WhereClauseRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.WhereClauseRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.WhereClauseRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.SearchForm">
+            <summary>
+            Name of base search form
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.NSId">
+            <summary>
+            Named Search ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.UserID">
+            <summary>
+            User ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.CalledFrom">
+            <summary>
+            UI from which the search is called from
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.IsDefault">
+            <summary>
+            Default named search flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.AutoExecute">
+            <summary>
+            Auto Execute flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.UnpinCrit">
+            <summary>
+            Can unpin Criteria
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.IsShared">
+            <summary>
+            Can be shared flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.ShareType">
+            <summary>
+            Share Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.ReturnAll">
+            <summary>
+            Return all rows flag.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.MaxRows">
+            <summary>
+            Maximum number search rows.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.AutoSelect">
+            <summary>
+            Auto select flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.DataSetMode">
+            <summary>
+            Value will be one of: "RowsDataSet" or "ListDataSet"
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.ProductID">
+            <summary>
+            "VN" = Vantage; "VS" = Vista
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.ActiveTab">
+            <summary>
+            Active panel
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.GroupOn">
+            <summary>
+            Can use Group By flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.GroupBy">
+            <summary>
+            Group by column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.SearchType">
+             <summary>
+             SearchType will hold one of two values initially but will be expanded in the future to offer other values.  This field is mandatory. Current values are Basic or BAQ.
+            
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.SearchUsing">
+            <summary>
+            SearchUsing will hold either null or the name of an existing BAQ.  In the future it may hold the name of an existing Dashboard. 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.SortByColumn">
+            <summary>
+            Column to sort by
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.SortOrder">
+            <summary>
+            A for Ascending or D for Descending
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.NamedSearchListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Lib.FileTransfer</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.Lib.FileTransfer">
+            <summary>
+            Summary description for FileTransfer.
+            </summary>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.#ctor(Ice.Core.Session)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.Dispose">
+            <summary>
+            Releases all resources.
+            </summary>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.Dispose(System.Boolean)">
+            <summary>
+            Releases the unmanaged resources used by the Ice.Lib.FileTransfer and optionally
+            releases the managed resources.
+            </summary>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.DownloadFile(Epicor.ServiceModel.Utilities.SpecialFolder,System.String,System.String)">
+            <summary>
+            Download a file from the server and save it to a given path.
+            </summary>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Source. Where the file is stored on the server. Eg. "dir\file.txt".</param>
+            <param name="clientPath">Destination. Where file is to be copied to on the client. Full name eg, "C:\Temp\file.txt".</param>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.DownloadFile(Epicor.ServiceModel.Utilities.SpecialFolder,System.String,System.String,System.String)">
+            <summary>
+            Download a file from the server and save it to a given path.
+            </summary>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Source. Where the file is stored on the server. Eg. "dir\file.txt".</param>
+            <param name="clientPath">Destination. Where file is to be copied to on the client. Full name eg, "C:\Temp\file.txt".</param>
+            <param name="companyID">A company ID that will be used to determine the tenant's path where the file resides.</param>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.DownloadFileForUser(Epicor.ServiceModel.Utilities.SpecialFolder,System.String,System.String,System.String)">
+            <summary>
+            Download a file from the server and save it to a given path.
+            </summary>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Source. Where the file is stored on the server. Eg. "dir\file.txt".</param>
+            <param name="clientPath">Destination. Where file is to be copied to on the client. Full name eg, "C:\Temp\file.txt".</param>
+            <param name="userID">A user ID that will be used to determine the user's path where the file resides.</param>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.DownloadFile(Epicor.ServiceModel.Utilities.SpecialFolder,System.String)">
+            <summary>
+            Download a file from the server.
+            </summary>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Source. Where the file is stored on the server. Eg. "dir\file.txt".</param>
+            <returns>File content is returned as a byte array</returns>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.DownloadString(Epicor.ServiceModel.Utilities.SpecialFolder,System.String)">
+            <summary>
+            Download a file from the server
+            </summary>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Source. Where the file is stored on the server. Eg. "dir\file.txt".</param>
+            <returns>File content is returned as a string</returns>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.DownloadXml(Epicor.ServiceModel.Utilities.SpecialFolder,System.String)">
+            <summary>
+            Download a file from the server
+            </summary>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Source. Where the file is stored on the server. Eg. "dir\file.txt".</param>
+            <returns>File content is returned as an XML document</returns>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.UploadFile(System.String,Epicor.ServiceModel.Utilities.SpecialFolder,System.String)">
+            <summary>
+            Upload file to the server
+            </summary>
+            <param name="clientPath">Destination. Where file is to be copied to on the client. Full name eg, "C:\Temp\file.txt".</param>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Source. Where the file is stored on the server. Eg. "dir\file.txt".</param>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.UploadFile(System.Byte[],Epicor.ServiceModel.Utilities.SpecialFolder,System.String)">
+            <summary>
+            Upload file to the server
+            </summary>
+            <param name="data">File content.</param>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Source. Where the file is stored on the server. Eg. "dir\file.txt".</param>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.UploadString(System.String,Epicor.ServiceModel.Utilities.SpecialFolder,System.String)">
+            <summary>
+            Upload file to the server
+            </summary>
+            <param name="data">File content.</param>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Source. Where the file is stored on the server. Eg. "dir\file.txt".</param>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.UploadXml(System.Xml.XmlDocument,Epicor.ServiceModel.Utilities.SpecialFolder,System.String)">
+            <summary>
+            Upload file to the server
+            </summary>
+            <param name="data">File content.</param>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Source. Where the file is stored on the server. Eg. "dir\file.txt".</param>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.FileExists(Epicor.ServiceModel.Utilities.SpecialFolder,System.String)">
+            <summary>
+            Checks if file exists on the server
+            </summary>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Source. Where the file is stored on the server. Eg. "dir\file.txt".</param>
+            <returns>True if file exists on the server</returns>
+        </member>
+        <member name="M:Ice.Lib.FileTransfer.FileDelete(Epicor.ServiceModel.Utilities.SpecialFolder,System.String)">
+            <summary>
+            Deletes the specified file.
+            </summary>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Source. Where the file is stored on the server. Eg. "dir\file.txt".</param>
+        </member>
+    </members>
+</doc>

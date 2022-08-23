@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.PredictiveSearch</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.BO.PredictiveSearchDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.PredictiveSearchDataSet.PredictiveSearchDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.PredictiveSearchDataSet.PredictiveSearchRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.PredictiveSearchDataSet.PredictiveSearchRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.PredictiveSearchListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.PredictiveSearchListDataSet.PredictiveSearchListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.PredictiveSearchListDataSet.PredictiveSearchListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.PredictiveSearchListDataSet.PredictiveSearchListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtPredictiveSearchDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtPredictiveSearchDataSet.PredictiveSearchDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtPredictiveSearchDataSet.PredictiveSearchRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtPredictiveSearchDataSet.PredictiveSearchRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.PredictiveSearchSvcContract">
+            <summary>
+            The predictive search service.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.PredictiveSearchSvcContract.GetNewPredictiveSearch(Ice.Tablesets.PredictiveSearchTableset@,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.PredictiveSearchSvcContract.DeleteByID(System.String,System.String)">
+            <summary>
+            Deletes a row given its ID.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.PredictiveSearchSvcContract.GetByID(System.String,System.String)">
+            <summary>
+            Returns a DataSet given the primary key.
+            </summary>
+            <returns>The DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.PredictiveSearchSvcContract.GetList(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a list of rows that satisfy the where clause.
+            </summary>
+            <param name="whereClause">An expression used to filter the rows. Can be left blank for all rows.</param>
+            <param name="pageSize">The maximum number of rows to return. Leave as zero for no maximum.</param>
+            <param name="absolutePage">Page of rows to return.</param>
+            <param name="morePages">Whether there are more pages of rows available.</param>
+            <returns>The list DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.PredictiveSearchSvcContract.GetRows(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a dataset containing all rows that satisfy the where clauses.
+            </summary>
+            <returns>The full DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.PredictiveSearchSvcContract.GetBySysRowID(System.Guid)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.PredictiveSearchSvcContract.GetBySysRowIDs(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.PredictiveSearchSvcContract.Update(Ice.Tablesets.PredictiveSearchTableset@)">
+            <summary>
+            Commits the DataSet changes to the data store.
+            </summary>
+            <param name="ds">The full DataSet.</param>
+        </member>
+        <member name="M:Ice.Contracts.PredictiveSearchSvcContract.UpdateExt(Ice.Tablesets.UpdExtPredictiveSearchTableset@,System.Boolean,System.Boolean,System.Boolean@)">
+            <summary>
+            Apply input data to BO by calling GetByID/GetNew/Update methods.
+            </summary>
+            <returns>The dataset with list of errors occurred during update process.</returns>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.Company">
+            <summary>
+            Company Identifier. If blank then this quick search is for all companies.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.QuickSearchID">
+            <summary>
+            The unique identifier for this quick search
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.GlbCompany">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.Description">
+            <summary>
+            Description 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.UserID">
+            <summary>
+            The userid of the user who created the export. If IsShared is false then this search is only available to this user.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.ExportID">
+             <summary>
+             The unique export identifier.
+            
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.LikeDataFieldTableID">
+            <summary>
+            TableID to use with LikeField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.LikeDataFieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.GlobalSearch">
+            <summary>
+            true if this search is available to all fields that have the same like table/field.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.ForValidation">
+            <summary>
+            true if this quick search is for validating during data entry
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.IsShared">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SystemFlag">
+            <summary>
+            Used for indicating this quick search is provided by system, not by an end user.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.ReturnFieldTableID">
+            <summary>
+            TableID to of the returned column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.ReturnFieldName">
+            <summary>
+            Field name of the returned column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.CallFrom">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.ContextDefault">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.BaseDefault">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.Version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.HotKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.CGCCode">
+            <summary>
+            Country Group Code / Country Code for CSF
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.IsPredictive">
+            <summary>
+            IsPredictive
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SourceSystemCode">
+            <summary>
+            SourceSystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SourceTableID">
+            <summary>
+            SourceTableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SourceFieldName">
+            <summary>
+            SourceFieldName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SearchOnFieldSystemCode">
+            <summary>
+            SearchOnFieldSystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SearchOnFieldTableID">
+            <summary>
+            SearchOnFieldTableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SearchOnFieldName">
+            <summary>
+            SearchOnFieldName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SuppressBaseSearch">
+            <summary>
+            SuppressBaseSearch
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.LikeField">
+            <summary>
+            The combined like field name in the format of &lt;table&gt;.&lt;field&gt;
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.ReturnField">
+            <summary>
+            The combined return field name in the format of &lt;table&gt;.&lt;field&gt;
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SearchOnField">
+            <summary>
+            The combined search on field name in the format of &lt;table&gt;.&lt;field&gt;
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SourceField">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.TopX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.Company">
+            <summary>
+            Company Identifier. If blank then this quick search is for all companies.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.QuickSearchID">
+            <summary>
+            The unique identifier for this quick search
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.GlbCompany">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.Description">
+            <summary>
+            Description 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.UserID">
+            <summary>
+            The userid of the user who created the export. If IsShared is false then this search is only available to this user.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.ExportID">
+             <summary>
+             The unique export identifier.
+            
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.LikeDataFieldTableID">
+            <summary>
+            TableID to use with LikeField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.LikeDataFieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.GlobalSearch">
+            <summary>
+            true if this search is available to all fields that have the same like table/field.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.ForValidation">
+            <summary>
+            true if this quick search is for validating during data entry
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.IsShared">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.SystemFlag">
+            <summary>
+            Used for indicating this quick search is provided by system, not by an end user.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.ReturnFieldTableID">
+            <summary>
+            TableID to of the returned column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.ReturnFieldName">
+            <summary>
+            Field name of the returned column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.CallFrom">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.ContextDefault">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.BaseDefault">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.Version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.HotKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.CGCCode">
+            <summary>
+            Country Group Code / Country Code for CSF
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.IsPredictive">
+            <summary>
+            IsPredictive
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.SourceSystemCode">
+            <summary>
+            SourceSystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.SourceTableID">
+            <summary>
+            SourceTableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.SourceFieldName">
+            <summary>
+            SourceFieldName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.SearchOnFieldSystemCode">
+            <summary>
+            SearchOnFieldSystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.SearchOnFieldTableID">
+            <summary>
+            SearchOnFieldTableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.SearchOnFieldName">
+            <summary>
+            SearchOnFieldName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.SuppressBaseSearch">
+            <summary>
+            SuppressBaseSearch
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.LikeField">
+            <summary>
+            The combined like field name in the format of &lt;table&gt;.&lt;field&gt;
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.ReturnField">
+            <summary>
+            The combined return field name in the format of &lt;table&gt;.&lt;field&gt;
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.PredictiveSearchListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>

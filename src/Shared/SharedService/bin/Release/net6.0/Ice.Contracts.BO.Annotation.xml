@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.Annotation</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.BO.AnnotationDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AnnotationDataSet.AnnotationDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AnnotationDataSet.AnnotationRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AnnotationDataSet.AnnotationRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AnnotationListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AnnotationListDataSet.AnnotationListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AnnotationListDataSet.AnnotationListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AnnotationListDataSet.AnnotationListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtAnnotationDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtAnnotationDataSet.AnnotationDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtAnnotationDataSet.AnnotationRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtAnnotationDataSet.AnnotationRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.AnnotationSvcContract">
+            <summary>
+            The Annotations service.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.AnnotationSvcContract.OnChangeofAnnotationType(System.String,System.String,System.String,System.String,Ice.Tablesets.AnnotationTableset@)">
+            <summary>
+            Validate the Annotation Type change is valid.
+            </summary>
+            <param name="annotationType">The proposed annotation type. </param>
+            <param name="helpPageRef"> Part of the key. </param>
+            <param name="langNameID"> Part of the key. </param>
+            <param name="origAnnotationType">The original annotation type</param>
+            <param name="ds">The Annotation data set </param>
+        </member>
+        <member name="M:Ice.Contracts.AnnotationSvcContract.OnChangeofCreatedBy(System.String,System.String,System.String,System.String,Ice.Tablesets.AnnotationTableset@)">
+            <summary>
+            Validate the CreatedBy change is valid.
+            </summary>
+            <param name="createdBy">The CreatedBy to change to. </param>
+            <param name="helpPageRef"> Part of the key. </param>
+            <param name="langNameID"> Part of the key. </param>
+            <param name="annotationType">Part of the key. </param>
+            <param name="ds">The Annotation data set </param>
+        </member>
+        <member name="M:Ice.Contracts.AnnotationSvcContract.GetNewAnnotation(Ice.Tablesets.AnnotationTableset@,System.String,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.AnnotationSvcContract.DeleteByID(System.String,System.String,System.String,System.String)">
+            <summary>
+            Deletes a row given its ID.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.AnnotationSvcContract.GetByID(System.String,System.String,System.String,System.String)">
+            <summary>
+            Returns a DataSet given the primary key.
+            </summary>
+            <returns>The DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.AnnotationSvcContract.GetList(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a list of rows that satisfy the where clause.
+            </summary>
+            <param name="whereClause">An expression used to filter the rows. Can be left blank for all rows.</param>
+            <param name="pageSize">The maximum number of rows to return. Leave as zero for no maximum.</param>
+            <param name="absolutePage">Page of rows to return.</param>
+            <param name="morePages">Whether there are more pages of rows available.</param>
+            <returns>The list DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.AnnotationSvcContract.GetRows(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a dataset containing all rows that satisfy the where clauses.
+            </summary>
+            <returns>The full DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.AnnotationSvcContract.GetBySysRowID(System.Guid)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.AnnotationSvcContract.GetBySysRowIDs(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.AnnotationSvcContract.Update(Ice.Tablesets.AnnotationTableset@)">
+            <summary>
+            Commits the DataSet changes to the data store.
+            </summary>
+            <param name="ds">The full DataSet.</param>
+        </member>
+        <member name="M:Ice.Contracts.AnnotationSvcContract.UpdateExt(Ice.Tablesets.UpdExtAnnotationTableset@,System.Boolean,System.Boolean,System.Boolean@)">
+            <summary>
+            Apply input data to BO by calling GetByID/GetNew/Update methods.
+            </summary>
+            <returns>The dataset with list of errors occurred during update process.</returns>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.HelpPageRef">
+            <summary>
+            html help page that annotation is associated with
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.LangNameID">
+            <summary>
+            Annotation Language 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.AnnotationType">
+            <summary>
+            'C'ompany or 'U'ser
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.CreatedBy">
+            <summary>
+            Created By
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.CreatedOn">
+            <summary>
+            CreatedOn
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.ModifiedBy">
+            <summary>
+            Modified By
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.ModifiedOn">
+            <summary>
+            ModifiedOn
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.AnnotationText">
+            <summary>
+            Annotation Text
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.CreatedByName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.LangNameIDDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.ModifiedByName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.HelpPageRef">
+            <summary>
+            html help page that annotation is associated with
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.LangNameID">
+            <summary>
+            Annotation Language 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.AnnotationType">
+            <summary>
+            'C'ompany or 'U'ser
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.CreatedBy">
+            <summary>
+            Created By
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.ModifiedBy">
+            <summary>
+            Modified By
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.AnnotationText">
+            <summary>
+            Annotation Text
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.CreatedByName">
+            <summary>
+            User Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.LangNameIDDescription">
+            <summary>
+            Language Name Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.ModifiedByName">
+            <summary>
+            User Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AnnotationListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(NetCoreTargetVersion)</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\SharedService\SharedService.csproj" />
+    <ProjectReference Include="..\EpicorBTWRest.DataAccess\EpicorBTWRest.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Epicor.ServiceModel">
+      <HintPath>..\..\..\Shared\SharedService\Epicor\Epicor.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Common.ContractInterfaces">
+      <HintPath>..\..\..\Shared\SharedService\Epicor\Erp.Common.ContractInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.ARInvoice">
+      <HintPath>..\..\..\Shared\SharedService\Epicor\Erp.Contracts.BO.ARInvoice.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.Customer">
+      <HintPath>..\..\..\Shared\SharedService\Epicor\Erp.Contracts.BO.Customer.dll</HintPath>
+    </Reference>
+    <Reference Include="Ice.Contracts.BO.UserFile">
+      <HintPath>..\..\..\Shared\SharedService\Epicor\Ice.Contracts.BO.UserFile.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  
+</Project>

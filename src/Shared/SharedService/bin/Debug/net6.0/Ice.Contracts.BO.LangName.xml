@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.LangName</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.BO.LangNameDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangNameDataSet.LangNameDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangNameDataSet.LangNameRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangNameDataSet.LangNameRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangNameListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangNameListDataSet.LangNameListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangNameListDataSet.LangNameListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangNameListDataSet.LangNameListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtLangNameDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtLangNameDataSet.LangNameDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtLangNameDataSet.LangNameRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtLangNameDataSet.LangNameRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.GetListCustom(System.String,System.Boolean,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            This overload of GetList shows all or only the languages with translations.
+            </summary>
+            <param name="whereClause">The criteria</param>
+            <param name="installed">Show only Installed Languages</param>
+            <returns type="Epicor.Mfg.BO.LangNameDataSet">Returns the list of Languages</returns>
+            <param name="pageSize">Size of a page</param>
+            <param name="absolutePage">The absolute page</param>
+            <param name="morePages">Indicating if there are more pages after this batch</param>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.GetListWithTranslations(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            This overload of GetList filters out languages with no translations.
+            </summary>
+            <param name="whereClause">The criteria</param>
+            <param name="pageSize">Size of a page</param>
+            <param name="absolutePage">The absolute page</param>
+            <param name="morePages">Indicating if there are more pages after this batch</param>
+            <returns type="Epicor.Mfg.BO.LangNameListDataSet">Returns the list of languages that have translations</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.GetNextLanguage(System.String,System.String@)">
+            <summary>
+            Returns next language that has translation record
+            </summary>
+            <param name="languageID">Language ID</param>
+            <param name="nextLanguage">Next language</param>
+            <returns>True if found a language</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.GeneratePseudoLanguage(System.String,System.String,System.Boolean,System.Decimal,System.Int32,System.Char,System.Char)">
+            <summary>
+            Generate a pseudo language
+            </summary>
+            <param name="languageID">Which language code to use (typically pse)</param>
+            <param name="culture">Which culture to apply (by default )</param>
+            <param name="usePseudoCode">Should the pseudo chars be used to substitute english</param>
+            <param name="expansionRatio">The expansio Ration (0.3 - increase by 30%)</param>
+            <param name="expansionMinChars">Expansion Minimum amount of chars (if less than this number). Typically 8</param>
+            <param name="expansionFillChar">The filling char that is expanded by (*)</param>
+            <param name="expansionEndingChar">The ending char (|)</param>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.GetNewLangName(Ice.Tablesets.LangNameTableset@)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.DeleteByID(System.String)">
+            <summary>
+            Deletes a row given its ID.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.GetByID(System.String)">
+            <summary>
+            Returns a DataSet given the primary key.
+            </summary>
+            <returns>The DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.GetList(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a list of rows that satisfy the where clause.
+            </summary>
+            <param name="whereClause">An expression used to filter the rows. Can be left blank for all rows.</param>
+            <param name="pageSize">The maximum number of rows to return. Leave as zero for no maximum.</param>
+            <param name="absolutePage">Page of rows to return.</param>
+            <param name="morePages">Whether there are more pages of rows available.</param>
+            <returns>The list DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.GetRows(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a dataset containing all rows that satisfy the where clauses.
+            </summary>
+            <returns>The full DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.GetBySysRowID(System.Guid)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.GetBySysRowIDs(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.Update(Ice.Tablesets.LangNameTableset@)">
+            <summary>
+            Commits the DataSet changes to the data store.
+            </summary>
+            <param name="ds">The full DataSet.</param>
+        </member>
+        <member name="M:Ice.Contracts.LangNameSvcContract.UpdateExt(Ice.Tablesets.UpdExtLangNameTableset@,System.Boolean,System.Boolean,System.Boolean@)">
+            <summary>
+            Apply input data to BO by calling GetByID/GetNew/Update methods.
+            </summary>
+            <returns>The dataset with list of errors occurred during update process.</returns>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.LangNameID">
+            <summary>
+            Language ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.Description">
+            <summary>
+            Language Name Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.ParentLangID">
+            <summary>
+            Parent Language ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.IsCustomLang">
+            <summary>
+            Custom Languange flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.HelpFileName">
+            <summary>
+            Name of the help file associated with this language
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.SpellCheckingDictionary">
+            <summary>
+            Spell checking dictionary fiel
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.TransVer">
+            <summary>
+            This field is used for Language translation version number.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.Culture">
+            <summary>
+            Culture flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.FontName">
+            <summary>
+            FontName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.CharWidthFactor">
+            <summary>
+            CharWidthFactor
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.FontStyle">
+            <summary>
+            FontStyle
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.FileVersion">
+            <summary>
+            FileVersion
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.TranDate">
+            <summary>
+            TranDate
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.HasTrans">
+            <summary>
+            HasTrans
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.ParentDescDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.LangNameID">
+            <summary>
+            Language ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.Description">
+            <summary>
+            Language Name Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.ParentLangID">
+            <summary>
+            Parent Language ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.IsCustomLang">
+            <summary>
+            Custom Languange flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.HelpFileName">
+            <summary>
+            Name of the help file associated with this language
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.SpellCheckingDictionary">
+            <summary>
+            Spell checking dictionary fiel
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.TransVer">
+            <summary>
+            This field is used for Language translation version number.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.Culture">
+            <summary>
+            Culture flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.FontName">
+            <summary>
+            FontName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.CharWidthFactor">
+            <summary>
+            CharWidthFactor
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.FontStyle">
+            <summary>
+            FontStyle
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.FileVersion">
+            <summary>
+            FileVersion
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.TranDate">
+            <summary>
+            TranDate
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.HasTrans">
+            <summary>
+            HasTrans
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.ParentDescDescription">
+            <summary>
+            Language Name Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.ParentDescDescription_">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangNameListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>

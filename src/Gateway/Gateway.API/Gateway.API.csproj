@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MMLib.SwaggerForOcelot" Version="$(MMLibSwaggerForOcelotVersion)" />
+    <PackageReference Include="Ocelot" Version="$(OcelotVersion)" />
+    <PackageReference Include="Ocelot.JWTAuthorize" Version="$(OcelotJWTAuthorizeVersion)" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="$(SwashbuckleAspNetCoreVersion)" />
+  </ItemGroup>
+
+</Project>

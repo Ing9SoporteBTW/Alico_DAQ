@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pWc0BoCM8WGJMNJsjchdGDPNYV2S6rAWyz8F99BcNNdeniWSa31sRYkhgqB6bI1uzeJ09msp5Z8dlIN6MGJegQ==",
+  "success": true,
+  "projectFilePath": "D:\\ProyectosDAQProducción\\DAQ\\src\\BuildingBlocks\\Events\\EventBus\\EventBus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ing9soporte\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

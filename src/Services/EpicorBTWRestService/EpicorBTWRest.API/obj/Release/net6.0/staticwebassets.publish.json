@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SKSWGf0zAwKi8YXqwlUhAF4sWUGQXYOafAfWR50LXAg=",
+  "Source": "DAQ.API",
+  "BasePath": "_content/DAQ.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

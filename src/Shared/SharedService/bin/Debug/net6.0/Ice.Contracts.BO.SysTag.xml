@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.SysTag</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.BO.SysTagDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SysTagDataSet.SysTagDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SysTagDataSet.SysTagRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SysTagDataSet.SysTagRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SysTagListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SysTagListDataSet.SysTagListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SysTagListDataSet.SysTagListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SysTagListDataSet.SysTagListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SysTagMatchDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SysTagMatchDataSet.SysTagMatchDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SysTagMatchDataSet.SysTagMatchRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SysTagMatchDataSet.SysTagMatchRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtSysTagDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtSysTagDataSet.SysTagDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtSysTagDataSet.SysTagRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtSysTagDataSet.SysTagRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.SysTagSvcContract.GetTagsAccessibleByUser(System.String,System.Guid)">
+            <summary>
+            Gets the tags that this user has access to for the specified row.
+            </summary>
+            <param name="tableName">Name of the table.</param>
+            <param name="rowId">The row identifier.</param>
+            <returns>The SysTag rows that the user has access to for the specified row.</returns>
+        </member>
+        <member name="M:Ice.Contracts.SysTagSvcContract.GetNewSysTag(Ice.Tablesets.SysTagTableset@)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.SysTagSvcContract.DeleteByID(System.Guid)">
+            <summary>
+            Deletes a row given its ID.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.SysTagSvcContract.GetByID(System.Guid)">
+            <summary>
+            Returns a DataSet given the primary key.
+            </summary>
+            <returns>The DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.SysTagSvcContract.GetList(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a list of rows that satisfy the where clause.
+            </summary>
+            <param name="whereClause">An expression used to filter the rows. Can be left blank for all rows.</param>
+            <param name="pageSize">The maximum number of rows to return. Leave as zero for no maximum.</param>
+            <param name="absolutePage">Page of rows to return.</param>
+            <param name="morePages">Whether there are more pages of rows available.</param>
+            <returns>The list DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.SysTagSvcContract.GetRows(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a dataset containing all rows that satisfy the where clauses.
+            </summary>
+            <returns>The full DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.SysTagSvcContract.GetBySysRowID(System.Guid)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.SysTagSvcContract.GetBySysRowIDs(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.SysTagSvcContract.Update(Ice.Tablesets.SysTagTableset@)">
+            <summary>
+            Commits the DataSet changes to the data store.
+            </summary>
+            <param name="ds">The full DataSet.</param>
+        </member>
+        <member name="M:Ice.Contracts.SysTagSvcContract.UpdateExt(Ice.Tablesets.UpdExtSysTagTableset@,System.Boolean,System.Boolean,System.Boolean@)">
+            <summary>
+            Apply input data to BO by calling GetByID/GetNew/Update methods.
+            </summary>
+            <returns>The dataset with list of errors occurred during update process.</returns>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.ForeignTableName">
+            <summary>
+            Foreign Table Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.ForeignSysRowID">
+            <summary>
+            Unique identifier of this row's parent. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.Tag">
+            <summary>
+            Tag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.CreatedOn">
+            <summary>
+            Creation DateTime Stamp
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.CreatedBy">
+            <summary>
+            Created by user
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.IsShared">
+            <summary>
+            Sharing indicator
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.Selected">
+            <summary>
+            Used to indicate if row is selected
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagListRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagListRow.ForeignTableName">
+            <summary>
+            Foreign Table Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagListRow.ForeignSysRowID">
+            <summary>
+            Unique identifier of this row's parent. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagListRow.Tag">
+            <summary>
+            Tag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagListRow.CreatedOn">
+            <summary>
+            Creation DateTime Stamp
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagListRow.CreatedBy">
+            <summary>
+            Created by user
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagListRow.IsShared">
+            <summary>
+            Sharing indicator
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagListRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagListRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagListRow.Selected">
+            <summary>
+            Used to indicate if row is selected
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagMatchRow.ForeignSysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagMatchRow.Tag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagMatchRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagMatchRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SysTagMatchRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>

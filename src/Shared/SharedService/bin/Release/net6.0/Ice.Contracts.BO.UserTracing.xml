@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.UserTracing</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.BO.UserTracingDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UserTracingDataSet.UserTracingDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UserTracingDataSet.UserTracingFlagDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UserTracingDataSet.UserTracingRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UserTracingDataSet.UserTracingFlagRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UserTracingDataSet.UserTracingRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UserTracingDataSet.UserTracingFlagRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UserTracingListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UserTracingListDataSet.UserTracingListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UserTracingListDataSet.UserTracingListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UserTracingListDataSet.UserTracingListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtUserTracingDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtUserTracingDataSet.UserTracingDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtUserTracingDataSet.UserTracingFlagDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtUserTracingDataSet.UserTracingRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtUserTracingDataSet.UserTracingFlagRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtUserTracingDataSet.UserTracingRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtUserTracingDataSet.UserTracingFlagRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.UserTracingSvcContract">
+            <summary>
+            UserTracing
+            Client tracing settings from the database service
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.UserTracingSvcContract.GetNewOrGetByID(System.String)">
+            <summary>
+            Gets or Creates a new UserTracing record to hold the Client UI Tracing record
+            </summary>
+            <param name="UserID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.UserTracingSvcContract.GetNewUserTracing(Ice.Tablesets.UserTracingTableset@)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.UserTracingSvcContract.GetNewUserTracingFlag(Ice.Tablesets.UserTracingTableset@,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.UserTracingSvcContract.DeleteByID(System.String)">
+            <summary>
+            Deletes a row given its ID.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.UserTracingSvcContract.GetByID(System.String)">
+            <summary>
+            Returns a DataSet given the primary key.
+            </summary>
+            <returns>The DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.UserTracingSvcContract.GetList(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a list of rows that satisfy the where clause.
+            </summary>
+            <param name="whereClause">An expression used to filter the rows. Can be left blank for all rows.</param>
+            <param name="pageSize">The maximum number of rows to return. Leave as zero for no maximum.</param>
+            <param name="absolutePage">Page of rows to return.</param>
+            <param name="morePages">Whether there are more pages of rows available.</param>
+            <returns>The list DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.UserTracingSvcContract.GetRows(System.String,System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a dataset containing all rows that satisfy the where clauses.
+            </summary>
+            <returns>The full DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.UserTracingSvcContract.GetBySysRowID(System.Guid)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.UserTracingSvcContract.GetBySysRowIDs(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.UserTracingSvcContract.Update(Ice.Tablesets.UserTracingTableset@)">
+            <summary>
+            Commits the DataSet changes to the data store.
+            </summary>
+            <param name="ds">The full DataSet.</param>
+        </member>
+        <member name="M:Ice.Contracts.UserTracingSvcContract.UpdateExt(Ice.Tablesets.UpdExtUserTracingTableset@,System.Boolean,System.Boolean,System.Boolean@)">
+            <summary>
+            Apply input data to BO by calling GetByID/GetNew/Update methods.
+            </summary>
+            <returns>The dataset with list of errors occurred during update process.</returns>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.UserID">
+            <summary>
+            UserID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.AssemblyReflector">
+            <summary>
+            AssemblyReflector
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.BitFlagViewWatcher">
+            <summary>
+            BitFlagViewWatcher
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.Catch">
+            <summary>
+            Catch
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.CustomContext">
+            <summary>
+            CustomContext
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.DataTrace">
+            <summary>
+            DataTrace
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.DataTraceCCDataSet">
+            <summary>
+            DataTraceCCDataSet
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.DataTraceFullDataSets">
+            <summary>
+            DataTraceFullDataSets
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.DataTraceIncludeServerTrace">
+            <summary>
+            DataTraceIncludeServerTrace
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.DataTraceReturnData">
+            <summary>
+            DataTraceReturnData
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.DataTraceDSChanges">
+            <summary>
+            DataTraceDSChanges
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.DeploymentLogging">
+            <summary>
+            DeploymentLogging
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.DeregistrationException">
+            <summary>
+            DeregistrationException
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.DialogException">
+            <summary>
+            DialogException
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.FormLoad">
+            <summary>
+            FormLoad
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.LogException">
+            <summary>
+            LogException
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.NotifyAll">
+            <summary>
+            NotifyAll
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.TransactionLoad">
+            <summary>
+            TransactionLoad
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.DashboardException">
+            <summary>
+            DashboardException
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.TraceHelp">
+            <summary>
+            TraceHelp
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.UITraceLogDirectory">
+            <summary>
+            UITraceLogDirectory
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.UITraceLocationScheme">
+            <summary>
+            UITraceLocationScheme
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingFlagRow.UserID">
+            <summary>
+            UserID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingFlagRow.ServerTraceFlag">
+            <summary>
+            ServerTraceFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingFlagRow.CreatedBy">
+            <summary>
+            CreatedBy
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingFlagRow.CreatedOn">
+            <summary>
+            CreatedOn
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingFlagRow.ChangedBy">
+            <summary>
+            ChangedBy
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingFlagRow.ChangedOn">
+            <summary>
+            ChangedOn
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingFlagRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingFlagRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingFlagRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingFlagRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingFlagRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingListRow.UserID">
+            <summary>
+            UserID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingListRow.DataTrace">
+            <summary>
+            DataTrace
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingListRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UserTracingListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>

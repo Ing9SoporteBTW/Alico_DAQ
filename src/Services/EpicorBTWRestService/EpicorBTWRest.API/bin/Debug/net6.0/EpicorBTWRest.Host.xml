@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EpicorBTWRest.Host</name>
+    </assembly>
+    <members>
+        <member name="M:EpicorBTWRest.Host.Controllers.BAQController.BAQConsult(SharedService.Models.Epicor.BAQ.BAQConsult)">
+            <summary>
+            Consulta BAQ
+            </summary>
+            <param name="BAQConsult">Objeto para realizar la consulta BAQ.</param>
+            <returns>BAQ Result</returns>
+            <response code="200">Resultado de la consulta BAQ</response>
+            <response code="400">Error en el proceso</response>  
+            
+        </member>
+        <member name="M:EpicorBTWRest.Host.Controllers.LaborDtlController.GetNewLaborDtl(SharedService.Models.EpicorCredentials)">
+            <summary>
+            Insertar un nuevo LaborDtl
+            </summary>
+            <param name="EpicorCredentials">Objeto para conectarse a Epicor.</param>
+            <returns>COOneTime</returns>
+            <response code="200">Resultado de LaborDtl</response>
+            <response code="400">Error en el proceso</response>  
+            
+        </member>
+        <member name="M:EpicorBTWRest.Host.Controllers.LoginController.Login(SharedService.Models.EpicorCredentials)">
+            <summary>
+            Consulta la compañia por su ID
+            </summary>
+            <param name="EpicorCredentials">Objeto para conectarse a Epicor.</param>
+            <returns>Copmañia</returns>
+            <response code="200">Resultado de compañia consultada</response>
+            <response code="400">Error en el proceso</response>  
+            
+        </member>
+        <member name="M:EpicorBTWRest.Host.Controllers.UD05Controller.GetNewUD05(System.String,SharedService.Models.EpicorCredentials)">
+            <summary>
+            Insertar un nuevo registro en la UD05
+            </summary>
+            <param name="UD05">UD05</param>
+            <param name="EpicorCredentials">Objeto para conectarse a Epicor.</param>
+            <returns>COOneTime</returns>
+            <response code="200">Resultado de la insercción en UD05 </response>
+            <response code="400">Error en el proceso</response>  
+            
+        </member>
+    </members>
+</doc>

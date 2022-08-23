@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EpicorBTWRest.Host</name>
+    </assembly>
+    <members>
+        <member name="M:EpicorBTWRest.Host.Controllers.LaborController.CreateTimeDirectInInEpicor(SharedService.Models.EpicorCredentials)">
+            <summary>
+            Crear nuevo registro de mano de obra
+            </summary>
+            <param name="_labor">Objeto para conectarse a Epicor.</param>
+            <returns>COOneTime</returns>
+            <response code="200">Resultado del COOneTime consultado</response>
+            <response code="400">Error en el proceso</response>  
+            
+            
+            
+        </member>
+        <member name="M:EpicorBTWRest.Host.Controllers.LoginController.Login(SharedService.Models.EpicorCredentials)">
+            <summary>
+            Consulta la compañia por su ID
+            </summary>
+            <param name="EpicorCredentials">Objeto para conectarse a Epicor.</param>
+            <returns>Copmañia</returns>
+            <response code="200">Resultado de compañia consultada</response>
+            <response code="400">Error en el proceso</response>  
+            
+        </member>
+        <member name="M:EpicorBTWRest.Host.Controllers.UD05Controller.CreateLostTimeInEpicor(SharedService.Models.EpicorCredentials)">
+            <summary>
+            Crear nuevo registro de tiempo perdido
+            </summary>
+            <param name="_ud">Objeto para conectarse a Epicor.</param>
+            <returns>COOneTime</returns>
+            <response code="200">Resultado de la solicitud</response>
+            <response code="400">Error en el proceso</response>  
+            
+            
+            
+        </member>
+    </members>
+</doc>

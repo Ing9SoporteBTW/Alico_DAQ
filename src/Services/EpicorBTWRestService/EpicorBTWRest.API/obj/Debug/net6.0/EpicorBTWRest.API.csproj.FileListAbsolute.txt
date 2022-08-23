@@ -1,0 +1,263 @@
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.csproj.AssemblyReference.cache
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.AssemblyInfoInputs.cache
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.AssemblyInfo.cs
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.csproj.CoreCompileInputs.cache
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.MvcApplicationPartsAssemblyInfo.cache
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\appsettings.Development.json
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\appsettings.json
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.exe
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.deps.json
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.runtimeconfig.json
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Hellang.Middleware.ProblemDetails.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Extensions.Http.Polly.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Polly.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Polly.Extensions.Http.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\RestSharp.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Host.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Rules.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Shared.Host.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SharedService.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Erp.Contracts.BO.Customer.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Ice.Contracts.BO.UserFile.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Epicor.ServiceModel.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Erp.Common.ContractInterfaces.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Host.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Rules.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Shared.Host.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SharedService.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\staticwebassets.build.json
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\staticwebassets.development.json
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\scopedcss\bundle\EpicorBTWRest.API.styles.css
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.csproj.CopyComplete
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\refint\EpicorBTWRest.API.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.genruntimeconfig.cache
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\ref\EpicorBTWRest.API.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.MvcApplicationPartsAssemblyInfo.cs
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Host.xml
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\appsettings.Development.json
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\appsettings.json
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.exe
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.deps.json
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.runtimeconfig.json
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\ref\EpicorBTWRest.API.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Hellang.Middleware.ProblemDetails.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Extensions.Http.Polly.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Polly.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Polly.Extensions.Http.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\RestSharp.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Host.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Rules.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Shared.Host.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SharedService.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Erp.Contracts.BO.Customer.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Ice.Contracts.BO.UserFile.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Epicor.ServiceModel.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Erp.Common.ContractInterfaces.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Host.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Host.xml
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Rules.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Shared.Host.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SharedService.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.csproj.AssemblyReference.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.AssemblyInfoInputs.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.AssemblyInfo.cs
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.csproj.CoreCompileInputs.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\staticwebassets.build.json
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\staticwebassets.development.json
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\scopedcss\bundle\EpicorBTWRest.API.styles.css
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.csproj.CopyComplete
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\ref\EpicorBTWRest.API.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.genruntimeconfig.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\AspNetCore.HealthChecks.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\HealthChecks.RabbitMQ.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\HealthChecks.UI.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\HealthChecks.UI.Client.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\HealthChecks.UI.Core.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\AutoMapper.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Extensions.HealthChecks.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Fractions.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\KubernetesClient.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.Design.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Rest.ClientRuntime.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Serilog.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SQLitePCLRaw.nativelibrary.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\YamlDotNet.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win7-x64\native\sni.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win7-x86\native\sni.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\unix\lib\netstandard1.3\System.Data.SqlClient.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win\lib\netstandard1.3\System.Data.SqlClient.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Shared.Host.xml
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\appsettings.json
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.exe
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.deps.json
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.runtimeconfig.json
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.API.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\AspNetCore.HealthChecks.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\HealthChecks.RabbitMQ.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\HealthChecks.UI.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\HealthChecks.UI.Client.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\HealthChecks.UI.Core.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Extensions.HealthChecks.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Fractions.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Hellang.Middleware.ProblemDetails.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\KubernetesClient.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.Design.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Extensions.Http.Polly.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Microsoft.Rest.ClientRuntime.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Polly.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Polly.Extensions.Http.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\RestSharp.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Serilog.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SQLitePCLRaw.nativelibrary.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\YamlDotNet.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win7-x64\native\sni.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win7-x86\native\sni.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\unix\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\runtimes\win\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Host.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Rules.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Shared.Host.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SharedService.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Erp.Contracts.BO.Customer.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Ice.Contracts.BO.UserFile.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Epicor.ServiceModel.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Erp.Common.ContractInterfaces.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Host.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Host.xml
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\EpicorBTWRest.Rules.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Shared.Host.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\Shared.Host.xml
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\SharedService.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.csproj.AssemblyReference.cache
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.AssemblyInfoInputs.cache
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.AssemblyInfo.cs
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.csproj.CoreCompileInputs.cache
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\scopedcss\bundle\EpicorBTWRest.API.styles.css
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.csproj.CopyComplete
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\refint\EpicorBTWRest.API.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\EpicorBTWRest.API.genruntimeconfig.cache
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\obj\Debug\net6.0\ref\EpicorBTWRest.API.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.API\bin\Debug\net6.0\appsettings.Development.json

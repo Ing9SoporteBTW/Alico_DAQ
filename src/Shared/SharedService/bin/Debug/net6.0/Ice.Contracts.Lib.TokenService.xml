@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.Lib.TokenService</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.Lib.TokenServiceDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.Lib.TokenServiceDataSet.TokenServiceDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.Lib.TokenServiceDataSet.TokenServiceRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.Lib.TokenServiceDataSet.TokenServiceRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.TokenServiceSvcContract">
+            <summary>
+            Generates tokens for token authentication
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.TokenServiceSvcContract.GetAccessToken(System.Guid,System.String,System.String)">
+            <summary>
+            Receive Access Token for currently logged in user and default client
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.TokenServiceSvcContract.IsTokenAuthenticationEnabled">
+            <summary>
+            Checks if Token Authentication is enabled in web.config
+            </summary>
+            <returns>true if token authentication is enabled</returns>
+        </member>
+        <member name="M:Ice.Contracts.TokenServiceSvcContract.IsTokenValid(System.String,System.String,System.DateTime@)">
+            <summary>
+            Checks if given token is valid
+            </summary>
+            <param name="token">serialized token</param>
+            <param name="userId">if specified, checks that token is valid and was issued for this user. If empty - just checks that token is valid</param>
+            <param name="validTillUtc">UTC time of token expiration</param>
+            <returns>true if token is valid for current user</returns>
+        </member>
+        <member name="M:Ice.Contracts.TokenServiceSvcContract.AdminGetTokenConfig(System.Boolean@,System.String@,System.Int32@,System.Boolean@,System.Int32@)">
+            <summary>
+            Returns current settings for token authentication, available for security manager
+            </summary>
+            <param name="tokenEnabled">Token authentication is enabled</param>
+            <param name="signKey">Token signature key</param>
+            <param name="lifeTime">token lifetime in seconds</param>
+            <param name="refreshTokenEnabled">Refresh token. Not implemented</param>
+            <param name="refreshTokenLifeTime">Refresh token life time. Not implemented</param>
+            <exception cref="T:System.UnauthorizedAccessException">User is not security manager (or GSM in multi-tenancy)</exception>
+        </member>
+        <member name="M:Ice.Contracts.TokenServiceSvcContract.AdminSetTokenConfig(System.Boolean,System.String,System.Int32,System.Boolean,System.Int32)">
+            <summary>
+            Configure token resource
+            </summary>
+            <param name="tokenEnabled">Token authentication is enabled</param>
+            <param name="signKey">Token signature key</param>
+            <param name="lifeTime">token lifetime in seconds</param>
+            <param name="refreshTokenEnabled">Refresh token. Not implemented</param>
+            <param name="refreshTokenLifeTime">Refresh token life time. Not implemented</param>
+            <exception cref="T:System.UnauthorizedAccessException">User is not security manager (or GSM in multi-tenancy)</exception>
+        </member>
+        <member name="M:Ice.Contracts.TokenServiceSvcContract.AdminSetIdentityProvider(System.Boolean,System.String,System.String,System.String,System.String)">
+            <summary>
+            Set Identity provider connection
+            </summary>
+            <param name="enable">Enable or disable usage of identity provider in current App Server installation</param>
+            <param name="endpoint">URL where Identity provider is installed</param>
+            <param name="scope">Scope used in tokens</param>
+            <param name="webClientID">Client ID for the Web applications</param>
+            <param name="nativeClientID">Client ID for the native applications</param>
+        </member>
+        <member name="M:Ice.Contracts.TokenServiceSvcContract.AdminSetScimProvider(System.Boolean,System.String,System.String,System.String)">
+            <summary>
+            Setup Scim endpoint for Identity provider
+            </summary>
+            <param name="enable">Enable or disable authomatic user export</param>
+            <param name="clientId">Client ID used for SCIM export</param>
+            <param name="clientSecret">Client secret used for SCIM export</param>
+            <param name="scope">Scope used for SCIM export</param>
+        </member>
+        <member name="P:Ice.Tablesets.TokenServiceRow.AccessToken">
+            <summary>
+            Aceess Token to use in Authentication
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TokenServiceRow.ExpiresIn">
+            <summary>
+            Seconds to token expiration
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TokenServiceRow.RefreshToken">
+            <summary>
+            Refresh token to get new access token when current is expired
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TokenServiceRow.TokenType">
+            <summary>
+            Type of token - now is always Bearer
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TokenServiceRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TokenServiceRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TokenServiceRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>

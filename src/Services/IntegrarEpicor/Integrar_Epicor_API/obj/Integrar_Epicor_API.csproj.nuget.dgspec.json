@@ -1,0 +1,599 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\Integrar_Epicor_API\\Integrar_Epicor_API.csproj": {}
+  },
+  "projects": {
+    "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj",
+        "projectName": "EpicorBTWRest.DataAccess",
+        "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj",
+        "projectName": "EpicorBTWRest.DataAccess",
+        "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj",
+        "projectName": "EpicorBTWRest.Host",
+        "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj",
+        "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj": {
+                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj"
+              },
+              "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj": {
+                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj"
+              },
+              "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj": {
+                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hellang.Middleware.ProblemDetails": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj",
+        "projectName": "EpicorBTWRest.Rules",
+        "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.Rules\\EpicorBTWRest.Rules.csproj",
+        "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.Rules\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj": {
+                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj"
+              },
+              "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj": {
+                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MiNET": {
+              "target": "Package",
+              "version": "[1.0.2304, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\Integrar_Epicor_API\\Integrar_Epicor_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\Integrar_Epicor_API\\Integrar_Epicor_API.csproj",
+        "projectName": "Integrar_Epicor_API",
+        "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\Integrar_Epicor_API\\Integrar_Epicor_API.csproj",
+        "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\Integrar_Epicor_API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj": {
+                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\EpicorBTWRestService\\EpicorBTWRest.DataAccess\\EpicorBTWRest.DataAccess.csproj"
+              },
+              "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj": {
+                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Services\\IntegrarEpicor\\EpicorBTWRest.Host\\EpicorBTWRest.Host.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj",
+        "projectName": "Shared.Host",
+        "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\Shared.Host\\Shared.Host.csproj",
+        "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\Shared.Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj": {
+                "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AspNetCore.HealthChecks.Rabbitmq": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Hellang.Middleware.ProblemDetails": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Polly.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj",
+        "projectName": "SharedService",
+        "projectPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\SharedService.csproj",
+        "packagesPath": "C:\\Users\\ing9soporte\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectosDAQProducción\\DAQ\\src\\Shared\\SharedService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ing9soporte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "SerilogTimings": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

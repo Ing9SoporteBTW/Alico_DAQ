@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "D0Ko7jAH2oXkJEBJtSteWnv+2gMt5Ypp+oVzRXAW9lg=",
+  "Source": "Integrar_Epicor_API",
+  "BasePath": "_content/Integrar_Epicor_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,1228 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.ZDataTable</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.BO.ZDataTableDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZDataTableDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZLookupLinkDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZLinkColumnDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZLookupFieldDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZDataFieldDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZKeyDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZKeyFieldDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZDataTableRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZLookupLinkRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZLinkColumnRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZLookupFieldRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZDataFieldRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZKeyRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZKeyFieldRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZDataTableRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZLookupLinkRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZLinkColumnRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZLookupFieldRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZDataFieldRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZKeyRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableDataSet.ZKeyFieldRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableListDataSet.ZDataTableListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableListDataSet.ZDataTableListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ZDataTableListDataSet.ZDataTableListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZDataTableDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZLookupLinkDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZLinkColumnDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZLookupFieldDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZDataFieldDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZKeyDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZKeyFieldDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZDataTableRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZLookupLinkRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZLinkColumnRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZLookupFieldRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZDataFieldRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZKeyRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZKeyFieldRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZDataTableRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZLookupLinkRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZLinkColumnRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZLookupFieldRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZDataFieldRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZKeyRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtZDataTableDataSet.ZKeyFieldRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.ZDataTableSvcContract">
+            <summary>
+            The ZDataTable service.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.ChangeLikeDataFieldName(System.String,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.String@,System.String@,System.String@,System.Int32@)">
+            <summary>
+            This method should be invoked when the LikeFieldName changes.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetKeyFields(System.String,System.String,System.String)">
+            <summary>
+            Get key fields.
+            </summary>
+            <param name="systemCode"></param>
+            <param name="dataTableID">Table ID</param>
+            <param name="keyID">Proposed KeyID</param>
+            <returns>ZData table data set</returns>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetKeys(System.String,System.String)">
+            <summary>
+            Get key fields for table
+            </summary>
+            <param name="systemCode"></param>
+            <param name="dataTableID">Table ID</param>
+            <returns>ZData table data set</returns>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.Synchronize(System.String,System.String)">
+            <summary>
+            Synchronize one table
+            </summary>
+            <param name="systemCode"></param>
+            <param name="dataTableID">Table ID</param>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.SynchronizeClass(System.String,System.String)">
+            <summary>
+            Synchronize all the tables of a class
+            </summary>
+            <param name="systemCode">System code</param>
+            <param name="className">Class name</param>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.HasDBTable(System.String,System.String)">
+            <summary>
+            Checks if DB table exists in database
+            </summary>
+            <param name="schemaName">Schema name (Ice, Erp)</param>
+            <param name="tableName">table name (e.g. Tip_UD)</param>
+            <returns>True if exists</returns>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetExtendedTableSyncInfo(System.String,System.String,System.Boolean@,System.Boolean@,System.Boolean@)">
+            <summary>
+            Get extended table sync information.
+            </summary>
+            <param name="schemaName">Schema name (Ice, Erp)</param>
+            <param name="tableName">table name (e.g. Tip_UD)</param>
+            <param name="dbExists">Database table exists</param>
+            <param name="zDataSynced">zData is in sync with database</param>
+            <param name="dataModelSynced">Data model is in sync with database</param>
+            <returns>True if everything is in sync</returns>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetExtendedTableSyncDetailsMessage(System.String,System.String,System.Boolean@,System.Boolean@,System.Boolean@,System.String@)">
+            <summary>
+            Get extended table sync information.
+            </summary>
+            <param name="schemaName">Schema name (Ice, Erp)</param>
+            <param name="tableName">table name (e.g. Tip_UD)</param>
+            <param name="dbExists">Database table exists</param>
+            <param name="zDataSynced">zData is in sync with database</param>
+            <param name="dataModelSynced">Data model is in sync with database</param>
+            <param name="syncMessage">string contains a list of sync issued</param>
+            <returns>True if everything is in sync</returns>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.CanModifyUDFieldFormat(Ice.Tablesets.ZDataTableTableset,System.String@)">
+            <summary>
+            Check if UD Field Format can be modified
+            </summary>
+            <param name="ts">data (only need the field row)</param>
+            <param name="message">resulting error message</param>
+            <returns>True if can be modified</returns>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetNewZDataTable(Ice.Tablesets.ZDataTableTableset@,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetNewZLookupLink(Ice.Tablesets.ZDataTableTableset@,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetNewZLinkColumn(Ice.Tablesets.ZDataTableTableset@,System.String,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetNewZLookupField(Ice.Tablesets.ZDataTableTableset@,System.String,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetNewZDataField(Ice.Tablesets.ZDataTableTableset@,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetNewZKey(Ice.Tablesets.ZDataTableTableset@,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetNewZKeyField(Ice.Tablesets.ZDataTableTableset@,System.String,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.DeleteByID(System.String,System.String)">
+            <summary>
+            Deletes a row given its ID.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetByID(System.String,System.String)">
+            <summary>
+            Returns a DataSet given the primary key.
+            </summary>
+            <returns>The DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetList(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a list of rows that satisfy the where clause.
+            </summary>
+            <param name="whereClause">An expression used to filter the rows. Can be left blank for all rows.</param>
+            <param name="pageSize">The maximum number of rows to return. Leave as zero for no maximum.</param>
+            <param name="absolutePage">Page of rows to return.</param>
+            <param name="morePages">Whether there are more pages of rows available.</param>
+            <returns>The list DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetRows(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a dataset containing all rows that satisfy the where clauses.
+            </summary>
+            <returns>The full DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetBySysRowID(System.Guid)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.GetBySysRowIDs(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.Update(Ice.Tablesets.ZDataTableTableset@)">
+            <summary>
+            Commits the DataSet changes to the data store.
+            </summary>
+            <param name="ds">The full DataSet.</param>
+        </member>
+        <member name="M:Ice.Contracts.ZDataTableSvcContract.UpdateExt(Ice.Tablesets.UpdExtZDataTableTableset@,System.Boolean,System.Boolean,System.Boolean@)">
+            <summary>
+            Apply input data to BO by calling GetByID/GetNew/Update methods.
+            </summary>
+            <returns>The dataset with list of errors occurred during update process.</returns>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.SystemCode">
+            <summary>
+            SystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.DataTableID">
+            <summary>
+            DataTable ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.SchemaName">
+            <summary>
+            SchemaName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.DBTableName">
+            <summary>
+            Database TableName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.WhereClause">
+            <summary>
+            Where Clause
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.RestrictedByTer">
+            <summary>
+            If yes then this table is restricted by accessiable sales territories
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.RestrictedByPlant">
+            <summary>
+            If yes then this table is restricted by accessiable Sites
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.FullSync">
+            <summary>
+            controls the behavior of  object designer field synchronization with the db schema. When set True, the synch process will bring in all the DB fields from a DB table into the zDataFields table. When set to False, the synch process will only update the fields that are currently in the zDataFields table.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.TableType">
+             <summary>
+             DB = Database, TT = Temp Table, RP = Report Parameter, PP = Process Parameter. This value can be used for filtering table searches, controling sensitivity of fields, and controlling references by datasets.
+            Field sensitivity rules based on this value are 
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.SystemFlag">
+            <summary>
+            Indicates a base System record (delivered by Epicor). System records may be overlaid during patch/release updates.  
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.TableLabel">
+            <summary>
+            A descriptive label for the table that the system may use in the construction of a message. Ex: Can not delete one or more "Bill of Lading" records exist.  Where Bill of Lading is the label. Which is much better that use the table name "BOLHead".
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.ChgLogID">
+            <summary>
+            Identifier value the system will use when creating Change Log records for this specific table (ChgLog.Indentifier)  ChgLogID must be the same for a set of related tables. For example: Customer, ShipTo, CustBillTo, CustCnt, are all related and will have a ChgLogID = "Customer".  TIP: Using the tablename of the highest level parent table as the ChgLogID may avoid   accidental duplication.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.BOUpdate">
+            <summary>
+            BO Used to Update Table
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.UpdateMethod">
+            <summary>
+            BO Method used for Update
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.CGCCode">
+            <summary>
+            Country Group Code / Country Code for CSF
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.Interface">
+            <summary>
+            Interface
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.SystemCode">
+            <summary>
+            SystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.DataTableID">
+            <summary>
+            DataTable ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.LookupID">
+            <summary>
+            LookUp ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.ForeignSystemCode">
+            <summary>
+            ForeignSystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.ForeignDataTableID">
+            <summary>
+            Foreign DataTable ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.KeyID">
+            <summary>
+            Key ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.ValidationRequired">
+            <summary>
+            Validation Required
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.ValidationPhraseEx">
+            <summary>
+            Extra validation
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.SystemFlag">
+            <summary>
+            Indicates a base System record (delivered by Epicor). System records may be overlaid during patch/release updates.  
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.ValidationOnly">
+            <summary>
+            Indicating this lookup link is not used for pulling the IsDisplayField  to the master table but for checking referential integraty.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupLinkRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLinkColumnRow.SystemCode">
+            <summary>
+            SystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLinkColumnRow.DataTableID">
+            <summary>
+            DataTable ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLinkColumnRow.LinkID">
+            <summary>
+            Link ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLinkColumnRow.FieldName">
+            <summary>
+            Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLinkColumnRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLinkColumnRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLinkColumnRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLinkColumnRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLinkColumnRow.ZLookupLinkForeignDataTableID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLinkColumnRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLinkColumnRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.SystemCode">
+            <summary>
+            SystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.DataTableID">
+            <summary>
+            DataTable ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.LookupID">
+            <summary>
+            LookUp ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.Seq">
+            <summary>
+            Sequence
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.FieldName">
+            <summary>
+            Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.IsConst">
+            <summary>
+            Constant Field indicator
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.SystemFlag">
+            <summary>
+            Indicates a base System record (delivered by Epicor). System records may be overlaid during patch/release updates.  
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.ForeignFieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZLookupFieldRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.SystemCode">
+            <summary>
+            SystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.DataTableID">
+            <summary>
+            DataTable ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.FieldName">
+            <summary>
+            Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.Seq">
+            <summary>
+            Sequence
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.DBTableName">
+            <summary>
+            Database Table Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.DataType">
+            <summary>
+            Data Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.Required">
+            <summary>
+            Required
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.ReadOnly">
+            <summary>
+            Read Only
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.External">
+            <summary>
+            External
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.Formula">
+            <summary>
+            Formula
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.Included">
+            <summary>
+            Included
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.FieldFormat">
+            <summary>
+            Field Format
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.FieldScale">
+            <summary>
+            Field Scale
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.FieldLabel">
+            <summary>
+            Field Label
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.InitialValue">
+            <summary>
+            Initial Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.IsDescriptionField">
+            <summary>
+            Indicates Data Field is a Description Field
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.LikeDataFieldSystemCode">
+            <summary>
+            LikeDataFieldSystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.LikeDataFieldTableID">
+            <summary>
+            TableID to use with LikeField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.RequiredModules">
+            <summary>
+            A delimited list of the modules required by this object.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.Delimiters">
+            <summary>
+            Contains the characters that are used as delimiters for when building a list from values of this data field. So during data entry we should validate none of these charater is in the value of this data field.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.CodeDescriptionList">
+            <summary>
+            Code and Description value list
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.LikeDataFieldName">
+            <summary>
+            Like Data Fiel Name reference
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.SystemFlag">
+            <summary>
+            Indicates a base System record (delivered by Epicor). System records may be overlaid during patch/release updates.  
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.CurrencyCodeColumn">
+            <summary>
+            Indicates Data Field is a Currency code column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.CurrencyType">
+            <summary>
+            Currency Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.CurrencySource">
+            <summary>
+            Currency Source
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.BizType">
+             <summary>
+             Further defines the Business use of the Field
+            Valid values are "Currency,Quantity,UOM"
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDLikeDataFieldSystemCode">
+            <summary>
+            UDLikeDataFieldSystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDLikeDataFieldTableID">
+            <summary>
+            TableID to use with LikeField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDLikeDataFieldName">
+            <summary>
+            User Defined Extended Property Like Data Field Name.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDFieldFormat">
+            <summary>
+            User Defined Extended Property Field Property
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDFieldLabel">
+            <summary>
+            User Defined Extended Property Field Label
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDInitialValue">
+            <summary>
+            User Defined Extended Property Initial Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDRequired">
+            <summary>
+            User Defined Extended Property Required flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDReadOnly">
+            <summary>
+            User Defined Extended Property Read Only flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDCurrencyCodeColumn">
+            <summary>
+            User Defined Extended Property Currency code column flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDCurrencyType">
+            <summary>
+            User Defined Extended Property Currency Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDCurrencySource">
+            <summary>
+            User Defined Extended Property currency Source
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDPredictiveSearchID">
+            <summary>
+            UDPredictiveSearchID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.CGCCode">
+            <summary>
+            CGCCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.DefaultFieldScale">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.DefaultFormat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.DefaultInitValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.DefaultLabel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.DelimiterCheck">
+            <summary>
+            DelimiterCheck
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.EffectiveCurrencySource">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.EffectiveCurrencyType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.LinkedColumn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDCodeType">
+            <summary>
+            UD Code Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDLinkedColumn">
+            <summary>
+            UD Linked Column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UDUomColumn">
+            <summary>
+            UD UOM Column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.UomColumn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.ZoneBAQ">
+            <summary>
+            Zone Baq ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.ZoneSearchOnEmptyControl">
+            <summary>
+            Allow Zone Search When control is Empty
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.Company">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.IsHidden">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataFieldRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyRow.SystemCode">
+            <summary>
+            SystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyRow.DataTableID">
+            <summary>
+            DataTable ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyRow.KeyID">
+            <summary>
+            Key ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyRow.IsPrimaryKey">
+            <summary>
+            Primary Key
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyRow.SystemFlag">
+            <summary>
+            Indicates a base System record (delivered by Epicor). System records may be overlaid during patch/release updates.  
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyRow.External">
+            <summary>
+            External Key
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyFieldRow.SystemCode">
+            <summary>
+            SystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyFieldRow.DataTableID">
+            <summary>
+            DataTable ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyFieldRow.KeyID">
+            <summary>
+            Key ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyFieldRow.Seq">
+            <summary>
+            Sequence
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyFieldRow.FieldName">
+            <summary>
+            Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyFieldRow.SystemFlag">
+            <summary>
+            Indicates a base System record (delivered by Epicor). System records may be overlaid during patch/release updates.  
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyFieldRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyFieldRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyFieldRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyFieldRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZKeyFieldRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.SystemCode">
+            <summary>
+            SystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.DataTableID">
+            <summary>
+            DataTable ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.SchemaName">
+            <summary>
+            SchemaName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.DBTableName">
+            <summary>
+            Database TableName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.WhereClause">
+            <summary>
+            Where Clause
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.RestrictedByTer">
+            <summary>
+            If yes then this table is restricted by accessiable sales territories
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.RestrictedByPlant">
+            <summary>
+            If yes then this table is restricted by accessiable Sites
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.TableType">
+             <summary>
+             DB = Database, TT = Temp Table, RP = Report Parameter, PP = Process Parameter. This value can be used for filtering table searches, controling sensitivity of fields, and controlling references by datasets.
+            Field sensitivity rules based on this value are 
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.SystemFlag">
+            <summary>
+            Indicates a base System record (delivered by Epicor). System records may be overlaid during patch/release updates.  
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.TableLabel">
+            <summary>
+            A descriptive label for the table that the system may use in the construction of a message. Ex: Can not delete one or more "Bill of Lading" records exist.  Where Bill of Lading is the label. Which is much better that use the table name "BOLHead".
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.ChgLogID">
+            <summary>
+            Identifier value the system will use when creating Change Log records for this specific table (ChgLog.Indentifier)  ChgLogID must be the same for a set of related tables. For example: Customer, ShipTo, CustBillTo, CustCnt, are all related and will have a ChgLogID = "Customer".  TIP: Using the tablename of the highest level parent table as the ChgLogID may avoid   accidental duplication.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.CGCCode">
+            <summary>
+            Country Group Code / Country Code for CSF
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ZDataTableListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>

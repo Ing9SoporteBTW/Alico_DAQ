@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(NetCoreTargetVersion)</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="AspNetCore.HealthChecks" Version="$(AspNetCoreHealthChecksVersion)" />
+	<PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="$(AspNetCoreHealthChecksRabbitmqVersion)" />
+	<PackageReference Include="AspNetCore.HealthChecks.UI" Version="$(AspNetCoreHealthChecksUIVersion)" />
+	<PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="$(AspNetCoreHealthChecksUIClientVersion)" />
+	<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="$(MicrosoftAspNetCoreMvcNewtonsoftJsonVersion)" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="$(MicrosoftAspNetCoreHttpAbstractionsVersion)" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="$(MicrosoftAspNetCoreAuthenticationJwtBearerVersion)" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore" Version="$(MicrosoftEntityFrameworkCoreVersion)" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="$(MicrosoftEntityFrameworkCoreRelationalVersion)" />
+	<PackageReference Include="Microsoft.Extensions.Http.Polly" Version="$(MicrosoftExtensionsHttpPollyVersion)" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="$(MicrosoftExtensionsLoggingAbstractionsVersion)" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="$(MicrosoftAspNetCoreDiagnosticsHealthChecksEntityFrameworkCoreVersion)" />
+	<PackageReference Include="Polly.Extensions.Http" Version="$(PollyExtensionsHttpVersion)" />
+	<PackageReference Include="Serilog" Version="$(SerilogVersion)" />
+	<PackageReference Include="Hellang.Middleware.ProblemDetails" Version="$(HellangMiddlewareProblemDetailsVersion)" />
+	<PackageReference Include="Swashbuckle.AspNetCore" Version="$(SwashbuckleAspNetCoreVersion)" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\SharedService\SharedService.csproj" />
+  </ItemGroup>
+
+</Project>

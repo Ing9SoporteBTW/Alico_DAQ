@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(NetCoreTargetVersion)</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="$(MicrosoftExtensionsLoggingAbstractionsVersion)" />
+    <PackageReference Include="Newtonsoft.Json" Version="$(NewtonsoftJsonVersion)" />
+    <PackageReference Include="RestSharp" Version="$(RestSharpVersion)" />
+
+    	<PackageReference Include="Serilog" Version="$(SerilogVersion)" />
+	<PackageReference Include="Serilog.AspNetCore" Version="$(SerilogAspNetCoreVersion)" />
+	<PackageReference Include="Serilog.Sinks.Console" Version="$(SerilogSinksConsoleVersion)" />
+	<PackageReference Include="Serilog.Sinks.File" Version="$(SerilogSinksFileVersion)" />
+	<PackageReference Include="Serilog.Sinks.Seq" Version="$(SerilogSinksSeqVersion)" />
+	<PackageReference Include="SerilogTimings" Version="$(SerilogTimingsVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Erp.Adapters.Labor">
+      <HintPath>..\..\..\..\..\..\..\..\Epicor\ICE3.0Client\Client\Erp.Adapters.Labor.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Common.ContractInterfaces">
+      <HintPath>..\..\..\..\..\..\..\..\Epicor\ICE3.0Client\Client\Erp.Common.ContractInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.Customer">
+      <HintPath>Epicor\Erp.Contracts.BO.Customer.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.Labor">
+      <HintPath>..\..\..\..\..\..\..\..\Epicor\ICE3.0Client\Client\Erp.Contracts.BO.Labor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

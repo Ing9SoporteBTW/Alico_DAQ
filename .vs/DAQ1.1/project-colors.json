@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1829f54f-a43f-40b2-ac2b-de59da7ecea3": {
+      "ProjectGuid": "1829f54f-a43f-40b2-ac2b-de59da7ecea3",
+      "DisplayName": "BTWEpic.Rules",
+      "ColorIndex": 0
+    },
+    "fa656454-f7ba-461a-8b0a-59aad048698f": {
+      "ProjectGuid": "fa656454-f7ba-461a-8b0a-59aad048698f",
+      "DisplayName": "BTWEvents.Rules",
+      "ColorIndex": 1
+    },
+    "9fbe4ad2-e7d8-46e5-9c19-fc6a355d61ce": {
+      "ProjectGuid": "9fbe4ad2-e7d8-46e5-9c19-fc6a355d61ce",
+      "DisplayName": "IdentityService.API",
+      "ColorIndex": 2
+    },
+    "c32cfe8c-558a-4fce-8690-c0aa91b1b039": {
+      "ProjectGuid": "c32cfe8c-558a-4fce-8690-c0aa91b1b039",
+      "DisplayName": "BTWEpic.API",
+      "ColorIndex": 3
+    },
+    "8d15bd1a-8292-4c0e-b1ad-de73a1831c55": {
+      "ProjectGuid": "8d15bd1a-8292-4c0e-b1ad-de73a1831c55",
+      "DisplayName": "Gateway.API",
+      "ColorIndex": 4
+    },
+    "bbbf2c99-5f0a-457a-a9d2-74c83df3770c": {
+      "ProjectGuid": "bbbf2c99-5f0a-457a-a9d2-74c83df3770c",
+      "DisplayName": "EpicorBTWRest.API",
+      "ColorIndex": 5
+    },
+    "486b3c6a-441a-40a0-8a4a-8bf20e5d9ccd": {
+      "ProjectGuid": "486b3c6a-441a-40a0-8a4a-8bf20e5d9ccd",
+      "DisplayName": "build",
+      "ColorIndex": 6
+    },
+    "b74ba65e-d712-4bbd-8559-933f52a5a55d": {
+      "ProjectGuid": "b74ba65e-d712-4bbd-8559-933f52a5a55d",
+      "DisplayName": "SharedService",
+      "ColorIndex": 7
+    },
+    "9ea8ac50-695c-4489-a907-34055d6d6597": {
+      "ProjectGuid": "9ea8ac50-695c-4489-a907-34055d6d6597",
+      "DisplayName": "EpicorBTWRest.Rules",
+      "ColorIndex": 8
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "67b619a9-0d51-4fc9-a9b4-f74081670e97": {
+      "ProjectGuid": "67b619a9-0d51-4fc9-a9b4-f74081670e97",
+      "DisplayName": "EpicorBTWRest.Host",
+      "ColorIndex": 9
+    },
+    "d8f9bfb2-3b25-4f21-8b29-b4063e85be95": {
+      "ProjectGuid": "d8f9bfb2-3b25-4f21-8b29-b4063e85be95",
+      "DisplayName": "BTWEpic.Host",
+      "ColorIndex": 10
+    }
+  },
+  "NextColorIndex": 11
+}

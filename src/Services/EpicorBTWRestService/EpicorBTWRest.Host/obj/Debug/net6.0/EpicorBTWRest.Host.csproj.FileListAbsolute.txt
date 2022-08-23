@@ -1,0 +1,218 @@
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.AssemblyReference.cache
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.GeneratedMSBuildEditorConfig.editorconfig
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfoInputs.cache
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfo.cs
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CoreCompileInputs.cache
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.deps.json
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Erp.Contracts.BO.Customer.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Ice.Contracts.BO.UserFile.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Epicor.ServiceModel.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Erp.Common.ContractInterfaces.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CopyComplete
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\refint\EpicorBTWRest.Host.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\ref\EpicorBTWRest.Host.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.xml
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.xml
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.deps.json
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\ref\EpicorBTWRest.Host.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.xml
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Erp.Contracts.BO.Customer.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Ice.Contracts.BO.UserFile.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Epicor.ServiceModel.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Erp.Common.ContractInterfaces.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.AssemblyReference.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfoInputs.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfo.cs
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CoreCompileInputs.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CopyComplete
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\ref\EpicorBTWRest.Host.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.xml
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.xml
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.deps.json
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.xml
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Erp.Contracts.BO.Customer.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Ice.Contracts.BO.UserFile.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Epicor.ServiceModel.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Erp.Common.ContractInterfaces.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.xml
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.AssemblyReference.cache
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.GeneratedMSBuildEditorConfig.editorconfig
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfoInputs.cache
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfo.cs
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CoreCompileInputs.cache
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CopyComplete
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\refint\EpicorBTWRest.Host.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.xml
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\ref\EpicorBTWRest.Host.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.deps.json
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.pdb
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.xml
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Ice.Contracts.BO.UserFile.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Epicor.ServiceModel.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.pdb
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.pdb
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.xml
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.pdb
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.AssemblyReference.cache
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.GeneratedMSBuildEditorConfig.editorconfig
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfoInputs.cache
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfo.cs
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CoreCompileInputs.cache
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CopyComplete
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\refint\EpicorBTWRest.Host.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.xml
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.pdb
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\ref\EpicorBTWRest.Host.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.deps.json
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.pdb
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.xml
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Ice.Contracts.BO.UserFile.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Erp.Contracts.BO.Labor.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Epicor.ServiceModel.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.pdb
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.pdb
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.xml
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.pdb
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.AssemblyReference.cache
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfoInputs.cache
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfo.cs
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CoreCompileInputs.cache
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CopyComplete
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\refint\EpicorBTWRest.Host.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.xml
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.pdb
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\ref\EpicorBTWRest.Host.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.deps.json
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.pdb
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.xml
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Ice.Contracts.BO.UserFile.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Erp.Contracts.BO.Labor.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Epicor.ServiceModel.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.pdb
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.pdb
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.xml
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.pdb
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.AssemblyReference.cache
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfoInputs.cache
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfo.cs
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CoreCompileInputs.cache
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CopyComplete
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\refint\EpicorBTWRest.Host.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.xml
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.pdb
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\ref\EpicorBTWRest.Host.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.deps.json
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.pdb
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.xml
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Ice.Contracts.BO.UserFile.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Erp.Contracts.BO.Labor.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Epicor.ServiceModel.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.pdb
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.pdb
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.xml
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.pdb
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.AssemblyReference.cache
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfoInputs.cache
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfo.cs
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CoreCompileInputs.cache
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CopyComplete
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\refint\EpicorBTWRest.Host.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.xml
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.pdb
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\ref\EpicorBTWRest.Host.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.deps.json
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.pdb
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Host.xml
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Ice.Contracts.BO.UserFile.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Erp.Contracts.BO.Labor.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Epicor.ServiceModel.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.Rules.pdb
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.pdb
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Shared.Host.xml
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\SharedService.pdb
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.AssemblyReference.cache
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfoInputs.cache
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.AssemblyInfo.cs
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CoreCompileInputs.cache
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.csproj.CopyComplete
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\refint\EpicorBTWRest.Host.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.xml
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\EpicorBTWRest.Host.pdb
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\obj\Debug\net6.0\ref\EpicorBTWRest.Host.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.Host\bin\Debug\net6.0\Erp.Common.ContractInterfaces.dll

@@ -1,0 +1,15 @@
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\bin\Release\net6.0\IntegrationEventLog.deps.json
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\bin\Release\net6.0\IntegrationEventLog.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\bin\Release\net6.0\ref\IntegrationEventLog.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\bin\Release\net6.0\IntegrationEventLog.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\bin\Release\net6.0\EventBus.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\bin\Release\net6.0\EventBus.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\obj\Release\net6.0\IntegrationEventLog.csproj.AssemblyReference.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\obj\Release\net6.0\IntegrationEventLog.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\obj\Release\net6.0\IntegrationEventLog.AssemblyInfoInputs.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\obj\Release\net6.0\IntegrationEventLog.AssemblyInfo.cs
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\obj\Release\net6.0\IntegrationEventLog.csproj.CoreCompileInputs.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\obj\Release\net6.0\IntegrationEventLog.csproj.CopyComplete
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\obj\Release\net6.0\IntegrationEventLog.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\obj\Release\net6.0\ref\IntegrationEventLog.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\IntegrationEventLog\obj\Release\net6.0\IntegrationEventLog.pdb

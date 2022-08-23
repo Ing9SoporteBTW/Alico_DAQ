@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.Lib.ClassAttribute</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.Lib.ClassAttribute.ExtendedPropertyConstants">
+            <summary>Various constants used by ClassExtendedCrossRef in its work.</summary>
+        </member>
+        <member name="F:Ice.Lib.ClassAttribute.ExtendedPropertyConstants.PredictiveSearchID">
+            <summary>Predictive Search</summary>
+        </member>
+        <member name="F:Ice.Lib.ClassAttribute.ExtendedPropertyConstants.AllUsers">
+            <summary>All Users</summary>
+        </member>
+        <member name="F:Ice.Lib.ClassAttribute.ExtendedPropertyConstants.AllUIApps">
+            <summary>All UI Apps</summary>
+        </member>
+        <member name="T:Ice.Lib.ClassAttributeDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.Lib.ClassAttributeDataSet.ClassAttributeDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.Lib.ClassAttributeDataSet.ClassAttributeRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.Lib.ClassAttributeDataSet.ClassAttributeRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.ClassAttributeSvcContract">
+            <summary>
+            Provides attributes for a service
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ClassAttributeSvcContract.GetAttributes(System.String,System.String)">
+            <summary>
+            Get Attributes for set of class names and namespace
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ClassAttributeSvcContract.GetAttributesForTable(System.String,System.String)">
+            <summary>
+            Get Attributes for one table
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ClassAttributeSvcContract.GetAttributesForTables(System.String[])">
+            <summary>
+            Get Attributes for several tables - must be qualified as SchemaName.DataTableID
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ClassAttributeSvcContract.GetUDColumns(System.String,System.String)">
+            <summary>
+            Get Attributes for set of ud class names and namespace
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ClassAttributeSvcContract.GetAttributesForExtensionTable(System.String,System.String,System.String)">
+            <summary>
+            Get attributes for the extension tables, defined for the main dataset in the class
+            </summary>
+            <param name="companyID">Company ID where extension table is defined. If empty, current company will be used.</param>
+            <param name="classNames">Class name or class names, separated by comma</param>
+            <param name="nameSpace">Namespace for the class(es)</param>
+            <returns></returns>
+        </member>
+        <member name="P:Ice.Tablesets.ClassAttributeRow.DataSetID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ClassAttributeRow.DataTableID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ClassAttributeRow.FieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ClassAttributeRow.AttributeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ClassAttributeRow.AttributeValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ClassAttributeRow.ClassName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ClassAttributeRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ClassAttributeRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ClassAttributeRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>

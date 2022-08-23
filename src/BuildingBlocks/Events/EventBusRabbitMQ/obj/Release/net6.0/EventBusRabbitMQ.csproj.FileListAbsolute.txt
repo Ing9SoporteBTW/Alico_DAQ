@@ -1,0 +1,15 @@
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\bin\Release\net6.0\EventBusRabbitMQ.deps.json
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\bin\Release\net6.0\EventBusRabbitMQ.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\bin\Release\net6.0\ref\EventBusRabbitMQ.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\bin\Release\net6.0\EventBusRabbitMQ.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\bin\Release\net6.0\EventBus.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\bin\Release\net6.0\EventBus.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\obj\Release\net6.0\EventBusRabbitMQ.csproj.AssemblyReference.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\obj\Release\net6.0\EventBusRabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\obj\Release\net6.0\EventBusRabbitMQ.AssemblyInfoInputs.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\obj\Release\net6.0\EventBusRabbitMQ.AssemblyInfo.cs
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\obj\Release\net6.0\EventBusRabbitMQ.csproj.CoreCompileInputs.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\obj\Release\net6.0\EventBusRabbitMQ.csproj.CopyComplete
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\obj\Release\net6.0\EventBusRabbitMQ.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\obj\Release\net6.0\ref\EventBusRabbitMQ.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBusRabbitMQ\obj\Release\net6.0\EventBusRabbitMQ.pdb

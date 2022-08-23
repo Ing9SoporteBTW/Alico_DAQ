@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.SysConfig</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.Contracts.SysConfigSvcContract">
+            <summary>
+            The SysConfig service.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.SysConfigSvcContract.GetValue(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Get a system configuration value.
+            </summary>
+            <param name="companyID">The company identifier.</param>
+            <param name="key1">The key1.</param>
+            <param name="key2">The key2.</param>
+            <param name="key3">The key3.</param>
+            <param name="defaultValue">The default value.</param>
+            <returns>The configured value or the default value if not configured.</returns>
+            <remarks>
+            The specific company is checked first for a value. If there isn't one then a global setting is looked for.
+            If neither are found then the default is returned.
+            </remarks>
+        </member>
+    </members>
+</doc>

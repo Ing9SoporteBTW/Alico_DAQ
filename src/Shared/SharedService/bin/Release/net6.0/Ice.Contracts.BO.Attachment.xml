@@ -1,0 +1,995 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.Attachment</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.BO.Attachment.StorageMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.StorageMode.SharePoint">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.StorageMode.FileSystem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.StorageMode.Link">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.StorageMode.CollaborationLink">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.StorageMode.DocStar">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ice.BO.Attachment.MetadataStorageType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataStorageType.SharePoint">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataStorageType.DocStar">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ice.BO.Attachment.MetadataColumnName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.Comments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.Author">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.TableName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.TableSysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.Category">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.Company">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.Keywords">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.AttachNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ice.BO.Attachment.MetadataColumnName.CustomFieldDefinition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.BO.Attachment.MetadataColumnName.CustomFieldDefinition.FieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.BO.Attachment.MetadataColumnName.CustomFieldDefinition.Hidden">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.BO.Attachment.MetadataColumnName.CustomFieldDefinition.NonIndexed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.CompanyDefaultCustomFields">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.DocTypeDefaultCustomFields">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.Attachment.MetadataColumnName.HiddenColumns">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ice.BO.Attachment.DocStarId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ice.BO.Attachment.DocStarId.ComposeFolderPath(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="company"></param>
+            <param name="docType"></param>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.BO.Attachment.DocStarId.ComposeDocTypeFolder(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="company"></param>
+            <param name="docType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.BO.Attachment.DocStarId.ComposeContentTypeName(System.String,System.String)">
+            <summary>
+            Function to create content type name
+            </summary>
+            <param name="company"></param>
+            <param name="docType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.BO.Attachment.DocStarId.ComposeSecurityClassName(System.String,System.String)">
+            <summary>
+            Function to create security class name
+            </summary>
+            <param name="company"></param>
+            <param name="docType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.BO.Attachment.DocStarId.GetDocumentId(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:Ice.BO.Attachment.DocStarId.ComposeFileName(System.Guid,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="docId"></param>
+            <param name="folderPath"></param>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.BO.Attachment.DocStarId.FileNameEndOfString(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="folderPath"></param>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ice.BO.AttachmentDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AttachmentDataSet.XFileAttchDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AttachmentDataSet.XFileAttchRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AttachmentDataSet.XFileAttchRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.XFileAttchListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.XFileAttchListDataSet.XFileAttchListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.XFileAttchListDataSet.XFileAttchListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.XFileAttchListDataSet.XFileAttchListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SpAttachMetadataDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SpAttachMetadataDataSet.SpAttachColumnDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SpAttachMetadataDataSet.SpAttachMetadataDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SpAttachMetadataDataSet.SpAttachColumnRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SpAttachMetadataDataSet.SpAttachMetadataRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SpAttachMetadataDataSet.SpAttachColumnRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SpAttachMetadataDataSet.SpAttachMetadataRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SpMetadataDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SpMetadataDataSet.SpMetadataDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SpMetadataDataSet.SpMetadataRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SpMetadataDataSet.SpMetadataRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtAttachmentDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtAttachmentDataSet.XFileAttchDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtAttachmentDataSet.XFileAttchRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtAttachmentDataSet.XFileAttchRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.AttachmentSvcContract">
+            <summary>
+            Class for handling of attachments.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.GetPathReferences(System.String)">
+            <summary>
+            Returns a list of rows that reference the same path.
+            </summary>
+            <param name="path">The path to match.</param>
+            <returns>The list DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.OnChangeOfFileName(System.String,System.Int32@,System.String@,System.String@,System.String@)">
+            <summary>
+            Call when FileName is changed.
+            The purpose of this method is to find out if a given FileName is already
+            known in the database. That is, does a XFileRef record exist.
+            Client program should pass the current values from the dataset for the given parameters.
+            The returned parameter values should unconditionally moved to the corresponding fields in the dataset.
+            </summary>
+            <param name="fileName">
+            The fully qualified file name (tablenameAttch.FileName) that the user is referencing for this attachment.
+            </param>
+            <param name="xFileRefNum">
+            External File Reference Number (tablenameAttch.XFileRefNum).
+            </param>
+            <param name="xFileDesc">
+            File description (tablenameAttch.DrawDesc).
+            </param>
+            <param name="docTypeID">
+            Document Type ID (tablenameAttch.DocTypeID).
+            </param>
+            <param name="pdmDocID"> PDM Document ID (tablenameAttch.PDMDocID).</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.OnChangeOfDocType(System.String,System.String@)">
+            <summary>
+            Call when DocTypeID is changed.
+            Will reset the path portion of the file name with the BaseURL of the DocType.
+            Note: It will not overlay a fully qualified filename.
+            </summary>
+            <param name="docTypeID">
+            The Document Type ID (tablenameAttch.DocTypeID) that has been entered.
+            </param>
+            <param name="fileName">
+            The fully qualified file name that the user is referencing for this attachment.
+            </param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.ServerDirectoryExists(System.String)">
+            <summary>
+            Determines whether the given path refers to an existing directory on the server.
+            </summary>
+            <param name="path">The path to test</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DownloadFile(System.Int32)">
+            <summary>
+            Get a file's content from the server
+            </summary>
+            <param name="xFileRefNum">id of the attachment</param>
+            <returns>File data</returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.UploadFile(System.String,System.String,System.String,System.Byte[])">
+            <summary>
+            Set a file's content on the server
+            </summary>
+            <param name="docTypeID">document type or empty, if default </param>
+            <param name="parentTable">table where attacment belongs</param>
+            <param name="fileName">filename, without path</param>
+            <param name="data">file content</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.FileExists(System.String,System.String,System.String)">
+            <summary>
+            Check if file exists on the server
+            </summary>
+            <param name="docTypeID">document type or empty, if default </param>
+            <param name="parentTable">table where attacment belongs</param>
+            <param name="fileName">Path to the file on the server</param>
+            <returns>True if exists</returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DeleteFile(System.Int32,System.Boolean)">
+            <summary>
+            Deletes the specified file.
+            </summary>
+            <param name="xFileRefNum">id of the attachment</param>
+            <param name="makeBackup">copy backup to 'deleted' directory</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.UploadFileToDocTypeStorage(System.String,System.String,System.String,System.Byte[],System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Upload file to the storage defined by document type (or default company storage)
+            </summary>
+            <param name="docTypeID"></param>
+            <param name="parentTable"></param>
+            <param name="fileName"></param>
+            <param name="data"></param>
+            <param name="metadata"></param>
+            <returns>server file path</returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DownloadFileFromDocumentStorage(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String}@)">
+            <summary>
+            Download file from the storage defined by document type (or default company storage)
+            </summary>
+            <param name="xFileRefNum"></param>
+            <param name="metadata"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SpUploadFile(System.String,System.Byte[],System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Upload file to Sharepoint and store metadata
+            </summary>
+            <param name="fileName">file name without path</param>
+            <param name="data">file binary data</param>
+            <param name="docTypeID">Document type for the attachment</param>
+            <param name="parentTable">Table where file is attached</param>
+            <param name="metadata">SharePoint metadata</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SpDownloadFile(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String}@)">
+            <summary>
+            Download file and its metadata from SharePoint
+            </summary>
+            <param name="xFileRefNum">file ID</param>
+            <param name="metadata">Sharepoint Metadata</param>
+            <returns></returns>
+            <exception cref="T:Ice.BLException"></exception>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SpGetMetadata(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String}@)">
+            <summary>
+            Download file metadata from SharePoint
+            </summary>
+            <param name="xFileRefNum">File ID from xFileRef table</param>
+            <param name="metadata">Metadata to be merged with data from SharePoint</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SpUpdateMetadata(System.Int32,System.Boolean,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Update metadata for Sharepoint file
+            </summary>
+            <param name="xFileRefNum">File ID from xFileRef table</param>
+            <param name="addSpPropsFields">set to false to update only description, true - to update comment and status</param>
+            <param name="metadata">metadata to update</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SpDeleteFile(System.Int32)">
+            <summary>
+            Delete file from SharePoint
+            </summary>
+            <param name="xFileRefNum">File ID</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SpFileExists(System.String,System.String,System.String)">
+            <summary>
+            Check if file exists on the sharepoint site
+            </summary>
+            <param name="docTypeID">document type or empty, if default </param>
+            <param name="parentTable">table where attacment belongs</param>
+            <param name="fileName">Path to the file on the server</param>
+            <returns>True if exists</returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SpCreateDocumentLibrary(System.String)">
+            <summary>
+            Create Sharepoint Document library.
+            </summary>
+            <param name="docTypeID">Document type</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SpCreateDocumentFolder(System.String,System.String)">
+            <summary>
+            Create Sharepoint document folder for table.
+            </summary>
+            <param name="docTypeID">Document type</param>
+            <param name="tableName">Table to use for attachments</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SpCreateContentType(System.String,System.String,System.String)">
+            <summary>
+            Create Sharepoint Content type.
+            </summary>
+            <param name="docTypeID">Document type</param>
+            <param name="contentTypeName"></param>
+            <param name="contentTypeDescription"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SpAddFieldToContentType(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Add field to the Sharepoint content type. Security Manager access right is requried.
+            </summary>
+            <param name="docTypeID">Document type</param>
+            <param name="contentTypeName"></param>
+            <param name="columnName"></param>
+            <param name="displayName"></param>
+            <param name="dataType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SpTestConnection(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Test connection to SharePoint
+            </summary>
+            <param name="docTypeID">Document type ID, or empty string to test company access</param>
+            <param name="spUserName">suggested username</param>
+            <param name="spUserPwd">suggested password</param>
+            <param name="spDomain">domain for Windows authentication</param>
+            <param name="authType">Authentication type - NTLM for Windows or SPO for SharePoint Online</param>
+            <returns>Message that connection succeeded. In case of failure exception will be thrown</returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.GetAccountForServer(System.String,System.Int32)">
+            <summary>
+            Get external attachment system account user name for this company or doc type
+            </summary>
+            <param name="docTypeID">Document type ID, or empty string for company level</param>
+            <param name="storageType">Storage type this accound is created for</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SetAccountForServer(System.String,System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            Set external attachment system account info for the company or doc type. Security Manager access right is requried.
+            </summary>
+            <param name="docTypeID">Document type ID, or empty string for company level</param>
+            <param name="storageType">Storage type this accound is created for</param>
+            <param name="spUserName">User name</param>
+            <param name="spUserPwd">Password</param>
+            <param name="spDomain">Domain for Windows authentication</param>
+            <param name="authType">Authentication type - NTLM for Windows or SPO for SharePoint Online</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.GetAccountForUser(System.String,System.Int32,System.String@,System.String@,System.String@,System.String@)">
+            <summary>
+            Get external attachment system account info for this company or doc type for logged in user
+            </summary>
+            <param name="docTypeID">Document type ID, or empty string for company level</param>
+            <param name="storageType">Storage type this accound is created for</param>
+            <param name="spUserName">Found username</param>
+            <param name="spUserPwd">Found password</param>
+            <param name="spDomain">Found domain for Windows authentication</param>
+            <param name="authType">Authentication type - NTLM for Windows or SPO for SharePoint Online</param>
+            <returns>true if record is found</returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.SetAccountForUser(System.String,System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            Set SP account info for the company or doc type for loggedin user
+            </summary>
+            <param name="docTypeID">Document type ID, or empty string to change access to company</param>
+            <param name="storageType">Storage type this accound is created for</param>
+            <param name="spUserName">suggested username</param>
+            <param name="spUserPwd">suggested password</param>
+            <param name="spDomain">domain for Windows authentication</param>
+            <param name="authType">Authentication type - NTLM for Windows or SPO for SharePoint Online</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.ClearAccountsForUser(System.Int32)">
+            <summary>
+            Clear stored external attachment system user accounts for current company and any document type
+            </summary>
+            <param name="storageType">Storage type this accound is created for</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DocStarTestConnection(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Test connection to docstar system
+            </summary>
+            <param name="docTypeID">Document type ID, or empty string to test company access</param>
+            <param name="userName">suggested username</param>
+            <param name="userPwd">suggested password</param>
+            <param name="domain">domain for Windows authentication</param>
+            <param name="authType">Authentication type - NTLM or USERNAME</param>
+            <returns>Message that connection succeeded. In case of failure exception will be thrown</returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DocStarCreateCompanyFolder">
+            <summary>
+            Create folder for company in the DocStar system
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DocStarCreateDocumentTypeFolder(System.String)">
+            <summary>
+            Create folder for document type in the DocStar system
+            </summary>
+            <param name="docTypeID">Document type</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DocStarCreateDocumentFolder(System.String,System.String)">
+            <summary>
+            Create folder for table inside document type folder in the DocStar system
+            </summary>
+            <param name="docTypeID">Document type</param>
+            <param name="tableName">Table name</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DocStarCreateCustomFields(System.String,System.String[])">
+            <summary>
+            Create custom fields in DocStar system
+            </summary>
+            <param name="docTypeID"></param>
+            <param name="customFieldNames"></param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DocStarUploadFile(System.String,System.Byte[],System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Upload file to DocStar system and store metadata
+            </summary>
+            <param name="fileName">file name without path</param>
+            <param name="data">file binary data</param>
+            <param name="docTypeID">Document type for the attachment</param>
+            <param name="parentTable">Table where file is attached</param>
+            <param name="metadata">Metadata values to store with file</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DocStarUploadFileAsVersion(System.Int32,System.String,System.Byte[],System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Upload file to DocStar system and store metadata
+            </summary>
+            <param name="xFileRefNum"></param>
+            <param name="fileName">file name without path</param>
+            <param name="data">file binary data</param>
+            <param name="docTypeID">Document type for the attachment</param>
+            <param name="parentTable">Table where file is attached</param>
+            <param name="metadata">Metadata values to store with file</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DocStarDownloadFile(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String}@)">
+            <summary>
+            Download file and its metadata from external DocStar system
+            </summary>
+            <param name="xFileRefNum">file ID</param>
+            <param name="metadata">metadata</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DocStarUpdateMetadata(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Update metadata for the file
+            </summary>
+            <param name="xFileRefNum">File ID from xFileRef table</param>
+            <param name="metadata">metadata to update</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DocStarGetMetadata(System.Int32,System.Collections.Generic.Dictionary{System.String,System.String}@)">
+            <summary>
+            Download file metadata
+            </summary>
+            <param name="xFileRefNum">File ID from xFileRef table</param>
+            <param name="metadata">Metadata to be merged with data from attachment system</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DocStarDeleteFile(System.Int32)">
+            <summary>
+            Delete file to Recycle Bin
+            </summary>
+            <param name="xFileRefNum">File ID from xFileRef table</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DocStarFileExistsForTableRow(System.String,System.String,System.String,System.Guid,System.String@,System.Int32@)">
+            <summary>
+            Check if docStar file with the same name already exists in the XFileRef attachment table for this Epicor table record
+            </summary>
+            <param name="docTypeID">document type or empty, if default </param>
+            <param name="parentTable">table where attacment belongs</param>
+            <param name="fileName">file name</param>
+            <param name="foreignSysRowID"></param>
+            <param name="xFileName">Table name in the XFileNum table</param>
+            <param name="AttachNum">AttachNum value in the XFileAttach</param>
+            <returns>returns xFileRefNum or 0</returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.GetNewXFileAttch(Ice.Tablesets.AttachmentTableset@,System.String,System.String,System.Guid)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.DeleteByID(System.String,System.String,System.Guid,System.Int32)">
+            <summary>
+            Deletes a row given its ID.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.GetByID(System.String,System.String,System.Guid,System.Int32)">
+            <summary>
+            Returns a DataSet given the primary key.
+            </summary>
+            <returns>The DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.GetList(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a list of rows that satisfy the where clause.
+            </summary>
+            <param name="whereClause">An expression used to filter the rows. Can be left blank for all rows.</param>
+            <param name="pageSize">The maximum number of rows to return. Leave as zero for no maximum.</param>
+            <param name="absolutePage">Page of rows to return.</param>
+            <param name="morePages">Whether there are more pages of rows available.</param>
+            <returns>The list DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.GetRows(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a dataset containing all rows that satisfy the where clauses.
+            </summary>
+            <returns>The full DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.GetBySysRowID(System.Guid)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.GetBySysRowIDs(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.Update(Ice.Tablesets.AttachmentTableset@)">
+            <summary>
+            Commits the DataSet changes to the data store.
+            </summary>
+            <param name="ds">The full DataSet.</param>
+        </member>
+        <member name="M:Ice.Contracts.AttachmentSvcContract.UpdateExt(Ice.Tablesets.UpdExtAttachmentTableset@,System.Boolean,System.Boolean,System.Boolean@)">
+            <summary>
+            Apply input data to BO by calling GetByID/GetNew/Update methods.
+            </summary>
+            <returns>The dataset with list of errors occurred during update process.</returns>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.RelatedToSchemaName">
+            <summary>
+            RelatedToSchemaName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.RelatedToFile">
+             <summary>
+             Identifies the master file to which the drawing related to.  This field is used to properly  isolate drawings to the masters they are related to.
+            For example; Part, QuoteAsm, JobAsmbl identifies drawings that are related to Parts, Quote Assemblies and Job Assemblies. 
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.Key1">
+            <summary>
+            Major component of the foreign key of the related master record. For example: For a "Part"  drawing this field would contain the related Part Number,  for a "QuoteAsm"  it contains the QuoteAsm.QuoteNum.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.Key2">
+             <summary>
+             2nd component of the foreign key to the related master record.
+            For example: For a "QuoteAsm"  drawing this field would contain the QuoteAsm.LineNum of the related QuoteAsm record.  The usage of this field is dependent on the type of record.  For example "Part" drawings do not use this field while JobAsmbl drawings would.
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.Key3">
+             <summary>
+             3rd component of the foreign key to the related master record.
+            For example: For a "QuoteAsm" drawing this field would contain the QuoteAsm.AssemblySeq # of the related QuoteAsm record.  The usage of this field is dependent record type.
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.Key4">
+             <summary>
+             4th component of the foreign key to the related master record.
+            For example: For a "QuoteOpr" drawing this field would contain the QuoteOpr.OprSeq # of the related QuoteOpr record.  The usage of this field is dependent record type.
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.AttachNum">
+             <summary>
+             An integer which uniquely identifies a attachment to the related master document.  Ex: If a specific job assembly has two attachements then the DrawingSeq = 1 and 2 respectively. This value is assigned by the system.
+            Note: Prior to 8.03 this field was named DrawingSeq. 
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.Key5">
+             <summary>
+             5th component of the foreign key to the related master record.
+            For example: For a "ECORev" drawing this field would contain the ECORev.AltMethod of the related ECORev record.  The usage of this field is dependent record type.
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.XFileRefNum">
+            <summary>
+            Foreign Key to XFileRef record. 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.DoTrigger">
+            <summary>
+            A flag used to force a write trigger event even though none of the other fields are changing. FYI: Originally created to handle the automatic duplication of RcvDtl attachments to the PartLot. If Part or LotNum is changed in RcvDtl or the DocType is changed the related XFileAttch.DoTrigger will be set to Yes. Which will then invoke the logic which automatically syncs up PartLot Attachments. Note DocType change sets this flag only the single specific XFileAttch record. It does not invoke the triggers for other XFileAttch records that are be related to the same XFileRef 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.DupToRelatedToFile">
+            <summary>
+            In some cases the system will duplicate a XFileAttch attaching it to a different table. Ex: RcvDtl attachments may be replicated to PartLot.  When this duplication occurs the source XFileAttch record ?DupTo? fields are updated and provide a link between the two. If the source XFileAttch is changed or deleted so will the record that was duplicated.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.DupToKey1">
+            <summary>
+            See DupToRelatedToFile
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.DupToKey2">
+            <summary>
+            See DupToRelatedToFile
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.DupToKey3">
+            <summary>
+            See DupToRelatedToFile
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.DupToKey4">
+            <summary>
+            See DupToRelatedToFile
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.DupToKey5">
+            <summary>
+            See DupToRelatedToFile
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.DupToAttachNum">
+            <summary>
+            See DupToRelatedToFile
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.Key6">
+             <summary>
+             6th component of the foreign key to the related master record.
+            The usage of this field is dependent record type.
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.SharePointID">
+            <summary>
+            The unique ID assigned by the Sharepoint system to attachments.  Field not required
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.ForeignSysRowID">
+            <summary>
+            ForeignSysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.XFileRefDocTypeID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.XFileRefPDMDocID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.XFileRefXFileName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.XFileRefXFileDesc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.RelatedToFile">
+             <summary>
+             Identifies the master file to which the drawing related to.  This field is used to properly  isolate drawings to the masters they are related to.
+            For example; Part, QuoteAsm, JobAsmbl identifies drawings that are related to Parts, Quote Assemblies and Job Assemblies. 
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.Key1">
+            <summary>
+            Major component of the foreign key of the related master record. For example: For a "Part"  drawing this field would contain the related Part Number,  for a "QuoteAsm"  it contains the QuoteAsm.QuoteNum.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.Key2">
+             <summary>
+             2nd component of the foreign key to the related master record.
+            For example: For a "QuoteAsm"  drawing this field would contain the QuoteAsm.LineNum of the related QuoteAsm record.  The usage of this field is dependent on the type of record.  For example "Part" drawings do not use this field while JobAsmbl drawings would.
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.Key3">
+             <summary>
+             3rd component of the foreign key to the related master record.
+            For example: For a "QuoteAsm" drawing this field would contain the QuoteAsm.AssemblySeq # of the related QuoteAsm record.  The usage of this field is dependent record type.
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.Key4">
+             <summary>
+             4th component of the foreign key to the related master record.
+            For example: For a "QuoteOpr" drawing this field would contain the QuoteOpr.OprSeq # of the related QuoteOpr record.  The usage of this field is dependent record type.
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.AttachNum">
+             <summary>
+             An integer which uniquely identifies a attachment to the related master document.  Ex: If a specific job assembly has two attachements then the DrawingSeq = 1 and 2 respectively. This value is assigned by the system.
+            Note: Prior to 8.03 this field was named DrawingSeq. 
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.Key5">
+             <summary>
+             5th component of the foreign key to the related master record.
+            For example: For a "ECORev" drawing this field would contain the ECORev.AltMethod of the related ECORev record.  The usage of this field is dependent record type.
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.XFileRefNum">
+            <summary>
+            Foreign Key to XFileRef record. 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.DoTrigger">
+            <summary>
+            A flag used to force a write trigger event even though none of the other fields are changing. FYI: Originally created to handle the automatic duplication of RcvDtl attachments to the PartLot. If Part or LotNum is changed in RcvDtl or the DocType is changed the related XFileAttch.DoTrigger will be set to Yes. Which will then invoke the logic which automatically syncs up PartLot Attachments. Note DocType change sets this flag only the single specific XFileAttch record. It does not invoke the triggers for other XFileAttch records that are be related to the same XFileRef 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.DupToRelatedToFile">
+            <summary>
+            In some cases the system will duplicate a XFileAttch attaching it to a different table. Ex: RcvDtl attachments may be replicated to PartLot.  When this duplication occurs the source XFileAttch record ?DupTo? fields are updated and provide a link between the two. If the source XFileAttch is changed or deleted so will the record that was duplicated.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.DupToKey1">
+            <summary>
+            See DupToRelatedToFile
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.DupToKey2">
+            <summary>
+            See DupToRelatedToFile
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.DupToKey3">
+            <summary>
+            See DupToRelatedToFile
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.DupToKey4">
+            <summary>
+            See DupToRelatedToFile
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.DupToKey5">
+            <summary>
+            See DupToRelatedToFile
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.DupToAttachNum">
+            <summary>
+            See DupToRelatedToFile
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.Key6">
+             <summary>
+             6th component of the foreign key to the related master record.
+            The usage of this field is dependent record type.
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.SharePointID">
+            <summary>
+            The unique ID assigned by the Sharepoint system to attachments.  Field not required
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.XFileAttchListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,12 @@
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBus\bin\Release\net6.0\EventBus.deps.json
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBus\bin\Release\net6.0\EventBus.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBus\bin\Release\net6.0\ref\EventBus.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBus\bin\Release\net6.0\EventBus.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBus\obj\Release\net6.0\EventBus.csproj.AssemblyReference.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBus\obj\Release\net6.0\EventBus.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBus\obj\Release\net6.0\EventBus.AssemblyInfoInputs.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBus\obj\Release\net6.0\EventBus.AssemblyInfo.cs
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBus\obj\Release\net6.0\EventBus.csproj.CoreCompileInputs.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBus\obj\Release\net6.0\EventBus.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBus\obj\Release\net6.0\ref\EventBus.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\BuildingBlocks\Events\EventBus\obj\Release\net6.0\EventBus.pdb

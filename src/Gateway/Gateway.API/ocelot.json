@@ -1,0 +1,103 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/Users/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 55348
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "PATCH" ],
+      "SwaggerKey": "users_service"
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 36501
+        }
+      ],
+      "UpstreamPathTemplate": "/epicorbtw/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "PATCH" ],
+      "SwaggerKey": "epicorbtw_service"
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 37401
+        }
+      ],
+      "UpstreamPathTemplate": "/btwepic/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "PATCH" ],
+      "SwaggerKey": "btwepic_service"
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 53910
+        }
+      ],
+      "UpstreamPathTemplate": "/btwevents/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "PATCH" ],
+      "SwaggerKey": "btwevents_service"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "users_service",
+      "Config": [
+        {
+          "Name": "Identity Service",
+          "Version": "v1.0.0",
+          "Url": "http://localhost:55348/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "epicorbtw_service",
+      "Config": [
+        {
+          "Name": "Epicor BTW Rest Service",
+          "Version": "v1.0.0",
+          "Url": "http://localhost:36501/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "btwepic_service",
+      "Config": [
+        {
+          "Name": "BTW Epic Service",
+          "Version": "v1.0.0",
+          "Url": "http://localhost:37401/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "btwevents_service",
+      "Config": [
+        {
+          "Name": "BTW Events Service",
+          "Version": "v1.0.0",
+          "Url": "http://localhost:53910/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44304",
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/administration"
+  }
+}

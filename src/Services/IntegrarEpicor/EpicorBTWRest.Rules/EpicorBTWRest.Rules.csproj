@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MiNET" Version="1.0.2304" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\SharedService\SharedService.csproj" />
+    <ProjectReference Include="..\EpicorBTWRest.DataAccess\EpicorBTWRest.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Epicor.ServiceModel">
+      <HintPath>..\..\..\Shared\SharedService\Epicor\Epicor.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Common.ContractInterfaces">
+      <HintPath>..\..\..\..\..\..\..\..\..\Epicor\ICE3.0Client\Client\Erp.Common.ContractInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.Indirect">
+      <HintPath>..\..\..\Shared\SharedService\Epicor\Erp.Contracts.BO.Indirect.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.Labor">
+      <HintPath>..\..\..\Shared\SharedService\Epicor\Erp.Contracts.BO.Labor.dll</HintPath>
+    </Reference>
+    <Reference Include="Ice.Contracts.BO.UserFile">
+      <HintPath>..\..\..\Shared\SharedService\Epicor\Ice.Contracts.BO.UserFile.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

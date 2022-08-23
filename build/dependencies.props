@@ -1,0 +1,112 @@
+<Project>
+  <PropertyGroup Label="SDK Versions">
+    <NetStandardTargetVersion>netstandard2.0</NetStandardTargetVersion>
+    <NetCoreTargetVersion>net6.0</NetCoreTargetVersion>
+    <LangVersion>preview</LangVersion>
+    <MicrosoftCSharpVersion>4.7.0</MicrosoftCSharpVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package Versions AspNetCore">
+    <AspNetCoreHealthChecksVersion>1.0.0</AspNetCoreHealthChecksVersion>
+    <AspNetCoreHealthChecksMySqlVersion>3.2.0</AspNetCoreHealthChecksMySqlVersion>
+    <AspNetCoreHealthChecksRabbitmqVersion>3.1.4</AspNetCoreHealthChecksRabbitmqVersion>
+    <AspNetCoreHealthChecksUIVersion>3.1.3</AspNetCoreHealthChecksUIVersion>
+    <AspNetCoreHealthChecksUIClientVersion>3.1.2</AspNetCoreHealthChecksUIClientVersion>
+    <MicrosoftAspNetCoreAuthenticationJwtBearerVersion>3.1.13</MicrosoftAspNetCoreAuthenticationJwtBearerVersion>
+    <MicrosoftAspNetCoreComponentsAuthorizationVersion>3.1.9</MicrosoftAspNetCoreComponentsAuthorizationVersion>
+    <MicrosoftAspNetCoreDiagnosticsHealthChecksVersion>2.2.0</MicrosoftAspNetCoreDiagnosticsHealthChecksVersion>
+    <MicrosoftAspNetCoreDiagnosticsHealthChecksEntityFrameworkCoreVersion>3.1.9</MicrosoftAspNetCoreDiagnosticsHealthChecksEntityFrameworkCoreVersion>
+    <MicrosoftAspNetCoreDiagnosticsEntityFrameworkCoreVersion>3.1.10</MicrosoftAspNetCoreDiagnosticsEntityFrameworkCoreVersion>
+    <MicrosoftAspNetCoreHealthChecksVersion>1.0.0</MicrosoftAspNetCoreHealthChecksVersion>
+    <MicrosoftAspNetCoreHttpAbstractionsVersion>2.2.0</MicrosoftAspNetCoreHttpAbstractionsVersion>
+    <MicrosoftAspNetCoreHostingVersion>2.2.7</MicrosoftAspNetCoreHostingVersion>
+    <MicrosoftAspNetCoreIdentityEntityFrameworkCoreVersion>3.1.8</MicrosoftAspNetCoreIdentityEntityFrameworkCoreVersion>
+    <MicrosoftAspNetCoreHostingAbstractionsVersion>2.2.0</MicrosoftAspNetCoreHostingAbstractionsVersion>
+    <MicrosoftAspNetCoreMvcNewtonsoftJsonVersion>6.0.4</MicrosoftAspNetCoreMvcNewtonsoftJsonVersion>
+    <MicrosoftAspNetCoreSignalRVersion>1.1.0</MicrosoftAspNetCoreSignalRVersion>
+    <MicrosoftAspNetCoreHostingAbstractionsVersion>2.2.0</MicrosoftAspNetCoreHostingAbstractionsVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="EntityFramework">
+    <MicrosoftEntityFrameworkCoreVersion>6.0.4</MicrosoftEntityFrameworkCoreVersion>
+    <MicrosoftEntityFrameworkCoreDesignVersion>6.0.4</MicrosoftEntityFrameworkCoreDesignVersion>
+    <MicrosoftEntityFrameworkCoreToolsVersion>6.0.4</MicrosoftEntityFrameworkCoreToolsVersion>
+    <MicrosoftEntityFrameworkCoreRelationalVersion>6.0.4</MicrosoftEntityFrameworkCoreRelationalVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package Versions Databases">
+    <MySqlDataVersion>8.0.22</MySqlDataVersion>
+    <NpgsqlVersion>6.0.4</NpgsqlVersion>
+    <NpgsqlEntityFrameworkCorePostgreSQLVersion>6.0.4</NpgsqlEntityFrameworkCorePostgreSQLVersion>
+  </PropertyGroup>
+  
+  <PropertyGroup Label="Package Versions Serilog">
+    <SerilogVersion>2.10.0</SerilogVersion>
+    <SerilogAspNetCoreVersion>5.0.0</SerilogAspNetCoreVersion>
+    <SerilogSinksConsoleVersion>4.0.1</SerilogSinksConsoleVersion>
+    <SerilogSinksFileVersion>5.0.0</SerilogSinksFileVersion>
+    <SerilogSinksSeqVersion>5.1.1</SerilogSinksSeqVersion>
+    <SerilogTimingsVersion>2.3.0</SerilogTimingsVersion>
+  </PropertyGroup>
+  
+  <PropertyGroup Label="Package Versions IdentityServer">
+    <IdentityServer4Version>3.1.2</IdentityServer4Version>
+    <IdentityServer4EntityFrameworkVersion>3.1.2</IdentityServer4EntityFrameworkVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package Versions Autofac">
+    <AutofacVersion>6.3.0</AutofacVersion>
+    <AutofacExtensionsDependencyInjectionVersion>7.1.0</AutofacExtensionsDependencyInjectionVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package Versions MediatR">
+    <MediatRVersion>7.0.0</MediatRVersion>
+    <MediatRExtensionsMicrosoftDependencyInjectionVersion>7.0.0</MediatRExtensionsMicrosoftDependencyInjectionVersion>
+  </PropertyGroup>
+  
+  <PropertyGroup Label="Package Versions Polly">
+    <PollyVersion>7.2.3</PollyVersion>
+    <PollyExtensionsHttpVersion>3.0.0</PollyExtensionsHttpVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package Versions Microsoft Extensions">
+    <MicrosoftExtensionsHttpVersion>3.1.0</MicrosoftExtensionsHttpVersion>
+    <MicrosoftExtensionsConfigurationVersion>6.0.1</MicrosoftExtensionsConfigurationVersion>
+    <MicrosoftExtensionsConfigurationFileExtensionsVersion>6.0.0</MicrosoftExtensionsConfigurationFileExtensionsVersion>
+    <MicrosoftExtensionsConfigurationJsonVersion>6.0.0</MicrosoftExtensionsConfigurationJsonVersion>
+    <MicrosoftExtensionsConfigurationAbstractionsVersion>5.0.0</MicrosoftExtensionsConfigurationAbstractionsVersion>
+    <MicrosoftExtensionsConfigurationBinderVersion>6.0.0</MicrosoftExtensionsConfigurationBinderVersion>
+    <MicrosoftExtensionsLoggingVersion>6.0.0</MicrosoftExtensionsLoggingVersion>
+    <MicrosoftExtensionsLoggingAbstractionsVersion>6.0.1</MicrosoftExtensionsLoggingAbstractionsVersion>
+    <MicrosoftExtensionsDependencyInjectionAbstractionsVersion>6.0.0</MicrosoftExtensionsDependencyInjectionAbstractionsVersion>
+    <MicrosoftExtensionsDiagnosticsHealthChecksEntityFrameworkCoreVersion>5.0.0</MicrosoftExtensionsDiagnosticsHealthChecksEntityFrameworkCoreVersion>
+    <MicrosoftExtensionsHttpPollyVersion>6.0.4</MicrosoftExtensionsHttpPollyVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package Versions System">
+    <SystemReflectionVersion>4.3.0</SystemReflectionVersion>
+    <SystemValueTupleVersion>4.5.0</SystemValueTupleVersion>
+    <SystemComponentModelAnnotationsVersion>5.0.0</SystemComponentModelAnnotationsVersion>
+    <SystemGlobalizationVersion>4.3.0</SystemGlobalizationVersion>
+    <SystemIOFileSysteVersion>4.3.0</SystemIOFileSysteVersion>
+    <SystemIOFileSystemPrimitivesVersion>4.3.0</SystemIOFileSystemPrimitivesVersion>
+    <SystemNetPrimitivesVersion>4.3.1</SystemNetPrimitivesVersion>
+    <SystemRuntimeExtensionsVersion>4.3.1</SystemRuntimeExtensionsVersion>
+    <SystemThreadingVersion>4.3.0</SystemThreadingVersion>
+    <SystemIdentityModelTokensJwtVersion>6.17.0</SystemIdentityModelTokensJwtVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package Versions Other">
+    <DapperVersion>2.0.35</DapperVersion>
+    <RestSharpVersion>106.12.0</RestSharpVersion>
+    <NewtonsoftJsonVersion>13.0.1</NewtonsoftJsonVersion>
+    <RabbitMQClientVersion>6.3.0</RabbitMQClientVersion>
+    <SwashbuckleAspNetCoreVersion>6.3.1</SwashbuckleAspNetCoreVersion>
+    <OcelotVersion>18.0.0</OcelotVersion>
+    <OcelotJWTAuthorizeVersion>0.0.400</OcelotJWTAuthorizeVersion>
+	<MMLibSwaggerForOcelotVersion>5.1.0</MMLibSwaggerForOcelotVersion>
+    <HellangMiddlewareProblemDetailsVersion>6.4.2</HellangMiddlewareProblemDetailsVersion>
+    <FluentValidationVersion>9.3.0</FluentValidationVersion>
+  </PropertyGroup>
+  
+</Project>

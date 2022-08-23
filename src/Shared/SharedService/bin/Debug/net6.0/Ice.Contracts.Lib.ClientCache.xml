@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.Lib.ClientCache</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.Contracts.ClientCacheSvcContract">
+            <summary>
+            Provides methods for populating the client cache
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.ClientCacheSvcContract.GetClassInformation(System.String,System.String[],System.Boolean@,System.String@,System.String@,System.String@,System.String)">
+            <summary>
+            Get security and attribute information about a service
+            </summary>
+        </member>
+    </members>
+</doc>

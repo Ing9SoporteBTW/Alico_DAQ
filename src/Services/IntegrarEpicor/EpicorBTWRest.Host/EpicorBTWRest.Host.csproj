@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+	  <NoWarn>$(NoWarn);1591</NoWarn>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hellang.Middleware.ProblemDetails" Version="6.4.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\Shared.Host\Shared.Host.csproj" />
+    <ProjectReference Include="..\..\..\Shared\SharedService\SharedService.csproj" />
+    <ProjectReference Include="..\EpicorBTWRest.Rules\EpicorBTWRest.Rules.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Erp.Common.ContractInterfaces">
+      <HintPath>..\..\..\..\..\..\..\..\..\Epicor\ICE3.0Client\Client\Erp.Common.ContractInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.Labor">
+      <HintPath>..\..\..\..\..\..\..\..\..\Epicor\ICE3.0Client\Client\Erp.Contracts.BO.Labor.dll</HintPath>
+      <CopyLocal>True</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+</Project>

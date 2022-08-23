@@ -1,0 +1,835 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.QuickSearch</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.BO.QuickSearchDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchDataSet.QuickSearchDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchDataSet.QuickSearchCriteriaDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchDataSet.QuickSearchValueListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchDataSet.QuickSearchRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchDataSet.QuickSearchCriteriaRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchDataSet.QuickSearchValueListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchDataSet.QuickSearchRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchDataSet.QuickSearchCriteriaRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchDataSet.QuickSearchValueListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchListDataSet.QuickSearchListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchListDataSet.QuickSearchListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchListDataSet.QuickSearchListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchBAQsExistDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchBAQsExistDataSet.QuickSearchBAQsExistDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchBAQsExistDataSet.QuickSearchBAQsExistRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QuickSearchBAQsExistDataSet.QuickSearchBAQsExistRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtQuickSearchDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtQuickSearchDataSet.QuickSearchDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtQuickSearchDataSet.QuickSearchCriteriaDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtQuickSearchDataSet.QuickSearchValueListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtQuickSearchDataSet.QuickSearchRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtQuickSearchDataSet.QuickSearchCriteriaRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtQuickSearchDataSet.QuickSearchValueListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtQuickSearchDataSet.QuickSearchRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtQuickSearchDataSet.QuickSearchCriteriaRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtQuickSearchDataSet.QuickSearchValueListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.QuickSearchSvcContract">
+            <summary>
+            Provide a way to define and run a user-defined search
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.BAQExists(System.String,System.String,System.Boolean@)">
+            <summary>
+            This method returns a list of quick searches for this user
+            </summary>
+            <param name="glbCompany">The identifier of the global company.</param>
+            <param name="quickSearchId">The identifier of the quick search.</param>
+            <param name="baqExists">Returns <c>true</c> if the BAQ in this quick search exists.</param>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.BAQsExist(System.String,Ice.Tablesets.QuickSearchBAQsExistTableset@)">
+            <summary>
+            This method returns a dataset of quick searches indicating if a BAQ exists
+            for each Quick Search
+            </summary>
+            <param name="glbCompany">The ID of the global company</param>
+            <param name="ds">Returns the list of Quick Searches</param>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.CopyQuickSearch(System.String,System.String,System.String,System.Boolean@)">
+            <summary>
+            This method copies a quick search
+            </summary>
+            <param name="sourceQuickSearchId">The ID of source quick search</param>
+            <param name="targetQuickSearchId">The ID of target quick search</param>
+            <param name="targetQuickSearchDescription">The description for the new quick search.</param>
+            <param name="succeeded">Returns true if copy operation is successful</param>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetBaseDefault(System.String,System.String,System.String@)">
+            <summary>
+            This method returns a quick search dataset with the given like field and call from name.
+            </summary>
+            <param name="likeTableAndField">The Like Field</param>
+            <param name="callFrom">The name of the call from</param>
+            <param name="baseSearchId">Returns the quick search ID which is the BaseDefault</param>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetContextDefault(System.String,System.String,System.String@)">
+            <summary>
+            This method returns a quick search dataset with the given like field and call from name.
+            </summary>
+            <param name="likeTableAndField">The Like Field</param>
+            <param name="callFrom">The name of the call from</param>
+            <param name="contextSearchId">Returns the quick search ID which is the ContextDefault</param>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetUserQuickSearches">
+            <summary>
+            This method returns a list of quick searches for this user
+            </summary>
+            <returns>Returns the list of Quick Searches</returns>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetVersion(System.String,System.String,System.String@)">
+            <summary>
+            This method returns the version code of a quick searches
+            </summary>
+            <param name="glbCompany">The ID of the global company</param>
+            <param name="quickSearchId">The ID of the quick search</param>
+            <param name="version">Returns the version code</param>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetLikeFieldSearches(System.String)">
+            <summary>
+            This method returns a list of quick searches for a like field
+            A like field has a format of table.field
+            </summary>
+            <param name="likeTableAndField">The name of the like field</param>
+            <returns>Returns the list of Quick Searches</returns>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetListForBAQ(System.String)">
+            <summary>
+            This method returns a list of quick searches that use a given BAQ
+            </summary>
+            <param name="baqId">The BAQ ID</param>
+            <returns>The returned list</returns>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.RunQuickSearch(Ice.Tablesets.QuickSearchTableset)">
+            <summary>
+            This method runs a quick search based on a QuickSearchDataSet.
+            </summary>
+            <param name="ds">The dataset represents a QuickSearch</param>
+            <returns>Returns the result dataset</returns>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.RunQuickSearchPaged(Ice.Tablesets.QuickSearchTableset,System.Int32,System.Boolean@)">
+            <summary>
+            This method runs a quick search based on a QuickSearchDataSet.
+            </summary>
+            <param name="ds">The dataset represents a QuickSearch</param>
+            <returns>Returns the result dataset</returns>
+            <param name="pageSize">The size of page</param>
+            <param name="morePages">Flag indicating if there are more pages</param>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetNewQuickSearch(Ice.Tablesets.QuickSearchTableset@,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetNewQuickSearchCriteria(Ice.Tablesets.QuickSearchTableset@,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetNewQuickSearchValueList(Ice.Tablesets.QuickSearchTableset@,System.String,System.String,System.Int32)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.DeleteByID(System.String,System.String)">
+            <summary>
+            Deletes a row given its ID.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetByID(System.String,System.String)">
+            <summary>
+            Returns a DataSet given the primary key.
+            </summary>
+            <returns>The DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetList(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a list of rows that satisfy the where clause.
+            </summary>
+            <param name="whereClause">An expression used to filter the rows. Can be left blank for all rows.</param>
+            <param name="pageSize">The maximum number of rows to return. Leave as zero for no maximum.</param>
+            <param name="absolutePage">Page of rows to return.</param>
+            <param name="morePages">Whether there are more pages of rows available.</param>
+            <returns>The list DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetRows(System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a dataset containing all rows that satisfy the where clauses.
+            </summary>
+            <returns>The full DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetBySysRowID(System.Guid)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.GetBySysRowIDs(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.Update(Ice.Tablesets.QuickSearchTableset@)">
+            <summary>
+            Commits the DataSet changes to the data store.
+            </summary>
+            <param name="ds">The full DataSet.</param>
+        </member>
+        <member name="M:Ice.Contracts.QuickSearchSvcContract.UpdateExt(Ice.Tablesets.UpdExtQuickSearchTableset@,System.Boolean,System.Boolean,System.Boolean@)">
+            <summary>
+            Apply input data to BO by calling GetByID/GetNew/Update methods.
+            </summary>
+            <returns>The dataset with list of errors occurred during update process.</returns>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.Company">
+            <summary>
+            Company Identifier. If blank then this quick search is for all companies.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.QuickSearchID">
+            <summary>
+            The unique identifier for this quick search
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.GlbCompany">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.Description">
+            <summary>
+            Description 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.UserID">
+            <summary>
+            The userid of the user who created the export. If IsShared is false then this search is only available to this user.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.ExportID">
+             <summary>
+             The unique export identifier.
+            
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.LikeDataFieldTableID">
+            <summary>
+            TableID to use with LikeField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.LikeDataFieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.GlobalSearch">
+            <summary>
+            true if this search is available to all fields that have the same like table/field.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.ForValidation">
+            <summary>
+            true if this quick search is for validating during data entry
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.IsShared">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.SystemFlag">
+            <summary>
+            Used for indicating this quick search is provided by system, not by an end user.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.ReturnFieldTableID">
+            <summary>
+            TableID to of the returned column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.ReturnFieldName">
+            <summary>
+            Field name of the returned column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.CallFrom">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.ContextDefault">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.BaseDefault">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.Version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.HotKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.CGCCode">
+            <summary>
+            Country Group Code / Country Code for CSF
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.IsPredictive">
+            <summary>
+            IsPredictive
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.SourceSystemCode">
+            <summary>
+            SourceSystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.SourceTableID">
+            <summary>
+            SourceTableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.SourceFieldName">
+            <summary>
+            SourceFieldName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.SearchOnFieldSystemCode">
+            <summary>
+            SearchOnFieldSystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.SearchOnFieldTableID">
+            <summary>
+            SearchOnFieldTableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.SearchOnFieldName">
+            <summary>
+            SearchOnFieldName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.SuppressBaseSearch">
+            <summary>
+            SuppressBaseSearch
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.ReturnDataType">
+            <summary>
+            The data type of the return column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.ReturnField">
+            <summary>
+            The combined return field name in the format of &lt;table&gt;.&lt;field&gt;
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.LikeField">
+            <summary>
+            The combined like field name in the format of &lt;table&gt;.&lt;field&gt;
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.QuickSearchID">
+            <summary>
+            The unique identifier for this quick search
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.GlbCompany">
+            <summary>
+            Global Record
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.Seq">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.DataTableID">
+            <summary>
+            The DataTableID this column bolongs to. If blank then this column is a calculated column.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.FieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.DataType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.FieldLabel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.CompOp">
+            <summary>
+            Operator to use for relation between left value and right value.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.CriteriaType">
+             <summary>
+             Indicating the type of this criteria: valid values are:
+            "prompt" - prompt for user input
+            "constant" - either a literal constant or a field from Conatants table, similar to BAQ
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.IsReturnCol">
+            <summary>
+            Indicates that this column is the returned column that the original text field asks.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.CriteriaValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.FilterOnNull">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.CriteriaField">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.CriteriaLikeFieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.CriteriaLikeTableID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.FieldFormat">
+            <summary>
+            The display format for this criteria column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.LikeField">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchCriteriaRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.QuickSearchID">
+            <summary>
+            The unique identifier for this quick search
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.GlbCompany">
+            <summary>
+            Global Record
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.Seq">
+            <summary>
+            Sequence
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.ValueSeq">
+            <summary>
+            Value Sequence
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.DisplayMember">
+            <summary>
+            Display Field
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.ValueMember">
+            <summary>
+            Value Field
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchValueListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQsExistRow.QuickSearchID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQsExistRow.BAQExist">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQsExistRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQsExistRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQsExistRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.Company">
+            <summary>
+            Company Identifier. If blank then this quick search is for all companies.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.QuickSearchID">
+            <summary>
+            The unique identifier for this quick search
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.GlbCompany">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.Description">
+            <summary>
+            Description 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.UserID">
+            <summary>
+            The userid of the user who created the export. If IsShared is false then this search is only available to this user.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.ExportID">
+             <summary>
+             The unique export identifier.
+            
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.LikeDataFieldTableID">
+            <summary>
+            TableID to use with LikeField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.LikeDataFieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.GlobalSearch">
+            <summary>
+            true if this search is available to all fields that have the same like table/field.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.ForValidation">
+            <summary>
+            true if this quick search is for validating during data entry
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.IsShared">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.SystemFlag">
+            <summary>
+            Used for indicating this quick search is provided by system, not by an end user.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.ReturnFieldTableID">
+            <summary>
+            TableID to of the returned column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.ReturnFieldName">
+            <summary>
+            Field name of the returned column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.CallFrom">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.ContextDefault">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.BaseDefault">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.Version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.HotKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.CGCCode">
+            <summary>
+            Country Group Code / Country Code for CSF
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.IsPredictive">
+            <summary>
+            IsPredictive
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.ReturnField">
+            <summary>
+            The combined return field name in the format of &lt;table&gt;.&lt;field&gt;
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.LikeField">
+            <summary>
+            The combined like field name in the format of &lt;table&gt;.&lt;field&gt;
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.ReturnDataType">
+            <summary>
+            The data type of the return column
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>

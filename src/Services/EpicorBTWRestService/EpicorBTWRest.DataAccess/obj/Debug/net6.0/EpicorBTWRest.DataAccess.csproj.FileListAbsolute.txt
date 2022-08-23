@@ -1,0 +1,105 @@
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.deps.json
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.AssemblyReference.cache
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfoInputs.cache
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfo.cs
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.CoreCompileInputs.cache
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\refint\EpicorBTWRest.DataAccess.dll
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+D:\INGJUANZ\Proyectos\Temporales\bYTHEWAVE\BTWEpic\BTWEpicService\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\ref\EpicorBTWRest.DataAccess.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.deps.json
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\ref\EpicorBTWRest.DataAccess.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.AssemblyReference.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfoInputs.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfo.cs
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.CoreCompileInputs.cache
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\ref\EpicorBTWRest.DataAccess.dll
+D:\Trabajo\Proyectos\Epicor\BYTHEWAVE\BTWEpicServices\Proyecto DEV\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.deps.json
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.AssemblyReference.cache
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfoInputs.cache
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfo.cs
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.CoreCompileInputs.cache
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\refint\EpicorBTWRest.DataAccess.dll
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Recursos\Servicio Epicor API\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\ref\EpicorBTWRest.DataAccess.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.deps.json
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.AssemblyReference.cache
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfoInputs.cache
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfo.cs
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.CoreCompileInputs.cache
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\refint\EpicorBTWRest.DataAccess.dll
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Recursos\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\ref\EpicorBTWRest.DataAccess.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.deps.json
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\Erp.Contracts.BO.Labor.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfo.cs
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.CopyComplete
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\refint\EpicorBTWRest.DataAccess.dll
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Users\ing9soporte\Empresas\Alico\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\ref\EpicorBTWRest.DataAccess.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.deps.json
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\Erp.Contracts.BO.Labor.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfo.cs
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.CopyComplete
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\refint\EpicorBTWRest.DataAccess.dll
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Users\ingjordanilo\Downloads\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\ref\EpicorBTWRest.DataAccess.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.deps.json
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\Erp.Contracts.BO.Labor.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfo.cs
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.CopyComplete
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\refint\EpicorBTWRest.DataAccess.dll
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+C:\Users\ing9soporte\Downloads\ALICO\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\ref\EpicorBTWRest.DataAccess.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.deps.json
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\Erp.Contracts.BO.Labor.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\bin\Debug\net6.0\Erp.Common.ContractInterfaces.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.AssemblyReference.cache
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfoInputs.cache
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.AssemblyInfo.cs
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.CoreCompileInputs.cache
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.csproj.CopyComplete
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\refint\EpicorBTWRest.DataAccess.dll
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\EpicorBTWRest.DataAccess.pdb
+D:\ProyectosDAQProducción\DAQ\src\Services\EpicorBTWRestService\EpicorBTWRest.DataAccess\obj\Debug\net6.0\ref\EpicorBTWRest.DataAccess.dll

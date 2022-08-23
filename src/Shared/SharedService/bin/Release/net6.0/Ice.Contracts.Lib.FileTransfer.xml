@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.Lib.FileTransfer</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.Contracts.FileTransferSvcContract">
+            <summary>
+            File transfer service. Enables the manipulation of server files from the client
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.FileTransferSvcContract.DownloadFile(Epicor.ServiceModel.Utilities.SpecialFolder,System.String)">
+            <summary>
+            Get a file's content from the server
+            </summary>
+            <param name="folder">The root of the path</param>
+            <param name="serverPath">The path of the file to get the content for</param>
+            <returns>File data</returns>
+        </member>
+        <member name="M:Ice.Contracts.FileTransferSvcContract.DownloadFileForCompany(Epicor.ServiceModel.Utilities.SpecialFolder,System.String,System.String)">
+            <summary>
+            Get a file's content from the server
+            </summary>
+            <param name="folder">The root of the path</param>
+            <param name="serverPath">The path of the file to get the content for</param>
+            <param name="companyID"></param>
+            <returns>File data</returns>
+        </member>
+        <member name="M:Ice.Contracts.FileTransferSvcContract.DownloadFileForUser(Epicor.ServiceModel.Utilities.SpecialFolder,System.String,System.String)">
+            <summary>
+            Get a file's content from the server
+            </summary>
+            <param name="folder">The root of the path</param>
+            <param name="serverPath">The path of the file to get the content for</param>
+            <param name="userID"></param>
+            <returns>File data</returns>
+        </member>
+        <member name="M:Ice.Contracts.FileTransferSvcContract.UploadFile(Epicor.ServiceModel.Utilities.SpecialFolder,System.String,System.Byte[])">
+            <summary>
+            Set a file's content on the server
+            </summary>
+            <param name="folder">The root of the path</param>
+            <param name="serverPath">The path of the file to set the content to</param>
+            <param name="data">File data</param>
+        </member>
+        <member name="M:Ice.Contracts.FileTransferSvcContract.FileExists(Epicor.ServiceModel.Utilities.SpecialFolder,System.String)">
+            <summary>
+            Check if file exists on the server.
+            </summary>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">Path to the file on the server.</param>
+            <returns>True if exists</returns>
+        </member>
+        <member name="M:Ice.Contracts.FileTransferSvcContract.FileDelete(Epicor.ServiceModel.Utilities.SpecialFolder,System.String)">
+            <summary>
+            Deletes the specified file. If not found, nothing happens
+            </summary>
+            <param name="folder">The root of the path.</param>
+            <param name="serverPath">The path of the file to delete.</param>
+        </member>
+    </members>
+</doc>

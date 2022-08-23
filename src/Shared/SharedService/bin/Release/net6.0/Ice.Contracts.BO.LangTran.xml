@@ -1,0 +1,635 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.LangTran</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.BO.LangTranDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangTranDataSet.LangTranDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangTranDataSet.LangTranRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangTranDataSet.LangTranRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangTranListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangTranListDataSet.LangTranListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangTranListDataSet.LangTranListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.LangTranListDataSet.LangTranListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranslationDataDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranslationDataDataSet.TranDataDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranslationDataDataSet.TranDataHeaderDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranslationDataDataSet.TranDataRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranslationDataDataSet.TranDataHeaderRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranslationDataDataSet.TranDataRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranslationDataDataSet.TranDataHeaderRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranTextDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranTextDataSet.TranTextDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranTextDataSet.TranTextRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranTextDataSet.TranTextRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranTextDataDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranTextDataDataSet.TranTextHeaderDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranTextDataDataSet.TranTextDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranTextDataDataSet.TranTextHeaderRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranTextDataDataSet.TranTextRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranTextDataDataSet.TranTextHeaderRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TranTextDataDataSet.TranTextRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtLangTranDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtLangTranDataSet.LangTranDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtLangTranDataSet.LangTranRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtLangTranDataSet.LangTranRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.GetProgTrans(System.String,System.Int32)">
+            <summary>
+            This method returns a list of program specific translations for a original text and language
+            </summary>
+            <param name="pcLanguageID">The language ID</param>
+            <param name="piOrigTextID">The original text ID</param>
+            <returns>Translation Text data set</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.GetTransByProgramID(System.String,System.String)">
+            <summary>
+            This method returns a list of translations from a start at program id
+            </summary>
+            <param name="pcLangID">The language ID</param>
+            <param name="pcProgID">The start at program ID</param>
+            <returns>Translation Text data set</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.GetTransByText(System.String,System.String)">
+            <summary>
+            This method returns a list of translations from a start at text
+            </summary>
+            <param name="pcLangID">The language ID</param>
+            <param name="pcText">The start at text</param>
+            <returns>Translation Text data set</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.GetTransByTextID(System.String,System.Int32)">
+            <summary>
+            This method returns a list of translations from a start at text id
+            </summary>
+            <param name="pcLangID">The language ID</param>
+            <param name="piTextID">The start at text ID</param>
+            <returns>Translation Text data set</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.GetTransByTranslation(System.String,System.String)">
+            <summary>
+            This method returns a list of translations from a start at translated text
+            </summary>
+            <param name="pcLangID">The language ID</param>
+            <param name="pcTranslation">The start at translated text</param>
+            <returns>Translation Text data set</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.UpdateAll(Ice.Tablesets.LangTranTableset@)">
+            <summary>
+            This method update LangTran table
+            </summary>
+            <param name="ds">Language Translation data set</param>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.DeleteTranRecords(System.String,System.String,System.Int32,System.Boolean@)">
+            <summary>
+            Deletes Translation
+            </summary>
+            <param name="pcLanguageID">The language ID</param>
+            <param name="pcProgramID">The program ID</param>
+            <param name="pcOrgTextID">ID</param>
+            <param name="bSucceed">Deleted YES/NO</param>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.ImportXml(Ice.Tablesets.TranTextTableset,System.Boolean)">
+            <summary>
+            Import translations passed from XML via TranTextTableset
+            </summary>
+            <param name="ds">Translation Text data set</param>
+            <param name="bCustomization">If True and record is missing in LangOrg, it will be added</param>
+            <returns>Translation Text data set</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.Translate(Ice.Tablesets.TranTextTableset,System.Boolean,System.Boolean)">
+            <summary>
+            Translate procedure
+            </summary>
+            <param name="ds">Translation Text data set</param>
+            <param name="bAddIfMissing">If True and record is missing in LangOrg, it will be added</param>
+            <param name="bFindSimilar">If True search for similar record when exact unmatched</param>
+            <returns>Translation Text data set</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.GetTranslationForTool(Ice.Tablesets.TranTextTableset,System.Boolean)">
+            <summary>
+            Get Translations to show in Translation Tool
+            Works similar to Translate method, but divides Program specific and indenendent translations into 2 columns,
+            as expected by Translation Tool
+            </summary>
+            <param name="ds">Translation Text data set</param>
+            <param name="bAddIfMissing">If True and record is missing in LangOrg, it will be added</param>
+            <returns>Translation Text data set</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.UpdateTranslations(Ice.Tablesets.TranTextTableset@,System.Boolean,System.Boolean@)">
+            <summary>
+            This method update translations and also LangOrg, LangXref if necessary
+            </summary>
+            <param name="ds">Translation Text data set</param>
+            <param name="pbUpdateLangOrg">Flag indicating if a LangOrg should be created if not exists</param>
+            <param name="bReturn">Not used</param>
+            <returns>Translation Text data set</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.DeleteTranslation(System.String,System.String,System.String,System.Boolean@)">
+            <summary>
+            Deletes Translation
+            </summary>
+            <param name="pcLanguageID">The language ID</param>
+            <param name="pcProgramID">The program ID</param>
+            <param name="pcText">Text</param>
+            <param name="bSucceed">Deleted YES/NO</param>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.UpdateSingleTranslation(System.String,System.String,System.String,System.String,System.String,System.Boolean@)">
+            <summary>
+            Updates single translation.
+            </summary>
+            <param name="pcLanguage">Language</param>
+            <param name="pcProgram">Program</param>
+            <param name="pcText">Text</param>
+            <param name="pcTranslation">Translation</param>
+            <param name="pcProgTranslation">ProgTranslation</param>
+            <param name="bSeccess">Updated YES/NO</param>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.DeleteTranslations(System.String)">
+            <summary>
+            Delete all translations for specified language
+            </summary>
+            <param name="languageID">Language ID</param>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.DeleteCustomizedTranslations(System.String)">
+            <summary>
+            Delete all custom translations (ID less than 0) for a specified language
+            </summary>
+            <param name="languageID">Language ID</param>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.RemoveOrphans">
+            <summary>
+            Remove Orphan records
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.DeleteRecordsNotInList(System.Int32[])">
+            <summary>
+            Delete Language records whose ID is not in the list passed
+            </summary>
+            <param name="listOrgTextID">List Of IDs</param>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.ImportTranslationData(Ice.Tablesets.TranslationDataTableset,System.Boolean)">
+            <summary>
+            Import translation data
+            </summary>
+            <param name="ds">Translation Data</param>
+            <param name="overwriteTranslations">Overwrite Translation</param>
+            <returns>Translation Data data set</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.ExportTranslationData(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Export translation data
+            </summary>
+            <param name="languageID">Language ID</param>
+            <param name="withReferences">Export ProgramID references</param>
+            <param name="onlyCustomization">Only customized</param>
+            <param name="onlyTranslated">Only translated</param>
+            <param name="onlyUntranslated">Only untranslated</param>
+            <param name="fromOrgTextID">From ID</param>
+            <param name="toOrgTextID">To ID</param>
+            <returns>TranslationDataTableset</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.GetNewLangTran(Ice.Tablesets.LangTranTableset@,System.Int32,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.DeleteByID(System.Int32,System.String,System.String)">
+            <summary>
+            Deletes a row given its ID.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.GetByID(System.Int32,System.String,System.String)">
+            <summary>
+            Returns a DataSet given the primary key.
+            </summary>
+            <returns>The DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.GetList(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a list of rows that satisfy the where clause.
+            </summary>
+            <param name="whereClause">An expression used to filter the rows. Can be left blank for all rows.</param>
+            <param name="pageSize">The maximum number of rows to return. Leave as zero for no maximum.</param>
+            <param name="absolutePage">Page of rows to return.</param>
+            <param name="morePages">Whether there are more pages of rows available.</param>
+            <returns>The list DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.GetRows(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a dataset containing all rows that satisfy the where clauses.
+            </summary>
+            <returns>The full DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.GetBySysRowID(System.Guid)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.GetBySysRowIDs(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.Update(Ice.Tablesets.LangTranTableset@)">
+            <summary>
+            Commits the DataSet changes to the data store.
+            </summary>
+            <param name="ds">The full DataSet.</param>
+        </member>
+        <member name="M:Ice.Contracts.LangTranSvcContract.UpdateExt(Ice.Tablesets.UpdExtLangTranTableset@,System.Boolean,System.Boolean,System.Boolean@)">
+            <summary>
+            Apply input data to BO by calling GetByID/GetNew/Update methods.
+            </summary>
+            <returns>The dataset with list of errors occurred during update process.</returns>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.LangNameID">
+            <summary>
+            Language ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.OrgTextID">
+            <summary>
+            Original Text ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.ProgramID">
+            <summary>
+            Program ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.TransText">
+            <summary>
+            Translated text.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.CustomTrans">
+            <summary>
+            Custom Translation
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.SortTransText">
+            <summary>
+            The first 50 characters from TransText
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.ErrMessage">
+            <summary>
+            Error returned by update
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.HasError">
+            <summary>
+            Indicating if an error occured during update
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.LangNameIDDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.LangNameID">
+            <summary>
+            Language ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.OrgTextID">
+            <summary>
+            Original Text ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.ProgramID">
+            <summary>
+            Program ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.TransText">
+            <summary>
+            Translated text.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.CustomTrans">
+            <summary>
+            Custom Translation
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.SortTransText">
+            <summary>
+            The first 50 characters from TransText
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.HasError">
+            <summary>
+            Indicating if an error occured during update
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.ErrMessage">
+            <summary>
+            Error returned by update
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.LangNameIDDescription">
+            <summary>
+            Language Name Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.LangTranListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataRow.OrgTextID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataRow.OriginalText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataRow.TranslatedText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataRow.ProgramID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataRow.ErrorCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataRow.ProgramSpecific">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataHeaderRow.LanguageID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataHeaderRow.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataHeaderRow.FileVersion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataHeaderRow.TranDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataHeaderRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataHeaderRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranDataHeaderRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranTextRow.LanguageID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranTextRow.ProgramID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranTextRow.OriginalText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranTextRow.TranslatedText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranTextRow.ProgTranText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranTextRow.OrgTextID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranTextRow.ErrorCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranTextRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranTextRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TranTextRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>
